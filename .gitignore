@@ -1,0 +1,42 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode / Rider
+.vscode/
+.idea/
+
+# Dotnet
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userprefs
+*.rsuser
+*.sln.docstates
+*.nupkg
+*.snupkg
+*.log
+
+# EF Core snapshots (по желанию)
+# server/Migrations/*Designer.cs
+
+# Node
+web/node_modules/
+web/.eslintcache
+web/.parcel-cache
+web/dist/
+web/.vite/
+
+# Env / secrets
+*.env
+*.env.*
+server/appsettings.*.local.json
+
+# Docker
+**/.docker/
+**/.env
+
+# Misc
+*.tmp
+*.swp
