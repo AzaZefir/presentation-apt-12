@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 
 // base: "./" важно, чтобы build работал при открытии dist/index.html как файла
 export default defineConfig({
-  base: "/apt-presentation/",
+  base: "/presentation-apt/",
   plugins: [react()],
 });
