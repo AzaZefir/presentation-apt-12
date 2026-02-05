@@ -1,4 +1,4 @@
-export const FLOORS = Array.from({ length: 14 }, (_, i) => i + 2); // 2..15
+export const FLOORS = Array.from({ length: 15 }, (_, i) => i + 1); // 1..15
 
 export const BLOCKS = Array.from({ length: 11 }, (_, i) => ({
   id: `b${String(i + 1).padStart(2, "0")}`,

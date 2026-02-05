@@ -1,4 +1,5 @@
-import React, { useMemo, useState } from "react";
+// App.jsx
+import React, { useMemo, useState, useEffect } from "react";
 import { BLOCKS, FLOORS, DEFAULT_OPERATOR_PASSWORD_HASH } from "./config.js";
 import { defaultSchemes } from "./schemes/defaultSchemes.js";
 import {
@@ -11,6 +12,8 @@ import {
   releaseOccupied,
   loadSettings,
   saveSettings,
+  getSvgText,
+  resolveSchemeKey,
 } from "./storage.js";
 import { sha256Hex } from "./crypto.js";
 
@@ -19,6 +22,7 @@ import SlideFrame from "./components/SlideFrame.jsx";
 import SvgPlan from "./components/SvgPlan.jsx";
 import Modal from "./components/Modal.jsx";
 import OperatorBar from "./components/OperatorBar.jsx";
+import SchemeReplace from "./components/SchemeReplace.jsx";
 
 function downloadJson(filename, obj) {
   const blob = new Blob([JSON.stringify(obj, null, 2)], {
@@ -30,6 +34,44 @@ function downloadJson(filename, obj) {
   a.download = filename;
   a.click();
   URL.revokeObjectURL(url);
+}
+
+function FloorPlan({
+  blockId,
+  floor,
+  operatorEnabled,
+  occupiedIds,
+  onApartmentClick,
+  schemesOverride,
+}) {
+  const [svgText, setSvgText] = useState("");
+
+  useEffect(() => {
+    let alive = true;
+    (async () => {
+      const key = resolveSchemeKey({
+        kind: "block",
+        blockId,
+        floor,
+        defaults: defaultSchemes,
+        overrides: schemesOverride,
+      });
+      const txt = await getSvgText(key);
+      if (alive) setSvgText(txt);
+    })();
+    return () => {
+      alive = false;
+    };
+  }, [blockId, floor, schemesOverride]);
+
+  return (
+    <SvgPlan
+      svgText={svgText}
+      occupiedIds={occupiedIds}
+      operatorEnabled={operatorEnabled}
+      onApartmentClick={onApartmentClick}
+    />
+  );
 }
 
 export default function App() {
@@ -44,18 +86,12 @@ export default function App() {
 
   const [schemeOpen, setSchemeOpen] = useState(false);
 
- const [schemesVersion, setSchemesVersion] = useState(0);
-const schemesOverride = useMemo(() => loadSchemeOverrides(), [schemesVersion]);
-
-  const schemes = useMemo(() => {
-    const merged = JSON.parse(JSON.stringify(defaultSchemes));
-    if (schemesOverride.master) merged.master = schemesOverride.master;
-    if (schemesOverride.blocks) {
-      for (const k of Object.keys(schemesOverride.blocks))
-        merged.blocks[k] = schemesOverride.blocks[k];
-    }
-    return merged;
-  }, [schemesOverride]);
+  // чтобы перезагружать overrides после сохранения
+  const [schemesVersion, setSchemesVersion] = useState(0);
+  const schemesOverride = useMemo(
+    () => loadSchemeOverrides(),
+    [schemesVersion],
+  );
 
   const slides = useMemo(() => {
     return [
@@ -63,6 +99,25 @@ const schemesOverride = useMemo(() => loadSchemeOverrides(), [schemesVersion]);
       ...BLOCKS.map((b) => ({ kind: "block", blockId: b.id, title: b.title })),
     ];
   }, []);
+
+  // master svg text (может быть url или текст)
+  const [masterSvgText, setMasterSvgText] = useState("");
+
+  useEffect(() => {
+    let alive = true;
+    (async () => {
+      const key = resolveSchemeKey({
+        kind: "master",
+        defaults: defaultSchemes,
+        overrides: schemesOverride,
+      });
+      const txt = await getSvgText(key);
+      if (alive) setMasterSvgText(txt);
+    })();
+    return () => {
+      alive = false;
+    };
+  }, [schemesOverride]);
 
   function prev() {
     setSlide((s) => Math.max(0, s - 1));
@@ -96,8 +151,6 @@ const schemesOverride = useMemo(() => loadSchemeOverrides(), [schemesVersion]);
       );
       if (ok) {
         releaseOccupied(blockId, floor, posKey);
-        // перерисовка произойдет автоматически через чтение из localStorage при следующем render
-        // (для простоты - дернем state)
         setSlide((s) => s);
       }
       return;
@@ -123,7 +176,10 @@ const schemesOverride = useMemo(() => loadSchemeOverrides(), [schemesVersion]);
   }
 
   function exportBackup() {
-    const name = `backup_${new Date().toISOString().slice(0, 19).replace(/[:T]/g, "-")}.json`;
+    const name = `backup_${new Date()
+      .toISOString()
+      .slice(0, 19)
+      .replace(/[:T]/g, "-")}.json`;
     downloadJson(name, buildBackupJson());
   }
 
@@ -146,18 +202,28 @@ const schemesOverride = useMemo(() => loadSchemeOverrides(), [schemesVersion]);
     setSchemeOpen(true);
   }
 
-  function saveScheme(kind, blockId, svgText) {
+  function saveScheme({ kind, blockId, floor, svgText }) {
     const over = loadSchemeOverrides();
+    over.blocks = over.blocks || {};
+
     if (kind === "master") {
       over.master = svgText;
-    } else {
-      over.blocks = over.blocks || {};
-      over.blocks[blockId] = svgText;
     }
+
+    if (kind === "blockDefault") {
+      over.blocks[blockId] = over.blocks[blockId] || { floors: {} };
+      over.blocks[blockId].default = svgText;
+    }
+
+    if (kind === "blockFloor") {
+      over.blocks[blockId] = over.blocks[blockId] || { floors: {} };
+      over.blocks[blockId].floors = over.blocks[blockId].floors || {};
+      over.blocks[blockId].floors[String(floor)] = svgText; // ключи как строки в JSON
+    }
+
     saveSchemeOverrides(over);
-setSchemesVersion(v => v + 1);
-alert("Схема сохранена.");
-    alert("Схема сохранена. Перезагрузите страницу.");
+    setSchemesVersion((v) => v + 1);
+    alert("Схема сохранена.");
   }
 
   function changePassword() {
@@ -196,20 +262,17 @@ alert("Схема сохранена.");
           <SlideFrame title="Слайд 0: Схема 11 блоков">
             <div
               className="svgOnly"
-              dangerouslySetInnerHTML={{ __html: schemes.master }}
+              dangerouslySetInnerHTML={{ __html: masterSvgText }}
             />
           </SlideFrame>
         )}
 
         {current.kind === "block" && (
-          <SlideFrame title={`Слайд: ${current.title} (этажи 2-15)`}>
+          <SlideFrame title={`Слайд: ${current.title}`}>
             <div className="floorsList">
               {FLOORS.map((floor) => {
                 // occupiedIds for this floor and block
                 const occupiedIds = [];
-                // loadOccupancy each time? ok (small). We'll scan by trying ids apt_01..apt_50 by DOM? Not.
-                // We'll just brute: the SVG uses apt_01..apt_04 in placeholder. In real SVG, operator clicks create keys.
-                // We'll build occupiedIds by reading localStorage map and filtering prefix.
                 const map = JSON.parse(
                   localStorage.getItem("apt_presentation_occupancy_v1") || "{}",
                 );
@@ -223,8 +286,11 @@ alert("Схема сохранена.");
                 return (
                   <div className="floorCard" key={floor}>
                     <div className="floorHeader">Этаж {floor}</div>
-                    <SvgPlan
-                      svgText={schemes.blocks[current.blockId]}
+
+                    <FloorPlan
+                      blockId={current.blockId}
+                      floor={floor}
+                      schemesOverride={schemesOverride}
                       occupiedIds={occupiedIds}
                       operatorEnabled={operatorEnabled}
                       onApartmentClick={(posKey) =>
@@ -264,12 +330,14 @@ alert("Схема сохранена.");
             placeholder="Например: Иванов Иван Иванович"
           />
         </div>
+
         {assignCtx && (
           <div className="hint">
             Блок <b>{assignCtx.blockId}</b>, этаж <b>{assignCtx.floor}</b>,
             позиция <b>{assignCtx.posKey}</b>
           </div>
         )}
+
         <div className="formActions">
           <button
             className="btn"
@@ -289,7 +357,7 @@ alert("Схема сохранена.");
         title="Заменить SVG (сохранится на этом ноутбуке)"
         onClose={() => setSchemeOpen(false)}
       >
-        <SchemeReplace schemes={schemes} onSave={saveScheme} />
+        <SchemeReplace onSave={saveScheme} floors={FLOORS} />
         <div className="hint">
           Важно: квартиры в SVG должны иметь id вида <b>apt_01</b>,{" "}
           <b>apt_02</b> ... чтобы оператор мог кликать по ним.
@@ -324,67 +392,6 @@ function LoginForm({ onLogin }) {
       <div className="formActions">
         <button className="btn" onClick={submit} disabled={!pw}>
           Войти
-        </button>
-      </div>
-    </div>
-  );
-}
-
-function SchemeReplace({ schemes, onSave }) {
-  const [mode, setMode] = useState("master");
-  const [blockId, setBlockId] = useState("b01");
-
-  function pickAndSave() {
-    const input = document.createElement("input");
-    input.type = "file";
-    input.accept = ".svg,image/svg+xml";
-    input.onchange = async () => {
-      const f = input.files?.[0];
-      if (!f) return;
-      const txt = await f.text();
-      if (mode === "master") onSave("master", null, txt);
-      else onSave("block", blockId, txt);
-    };
-    input.click();
-  }
-
-  return (
-    <div>
-      <div className="formRow">
-        <div className="label">Что заменить</div>
-        <select
-          className="input"
-          value={mode}
-          onChange={(e) => setMode(e.target.value)}
-        >
-          <option value="master">Генплан (11 блоков)</option>
-          <option value="block">Типовой этаж блока</option>
-        </select>
-      </div>
-
-      {mode === "block" && (
-        <div className="formRow">
-          <div className="label">Блок</div>
-          <select
-            className="input"
-            value={blockId}
-            onChange={(e) => setBlockId(e.target.value)}
-          >
-            {Array.from(
-              { length: 11 },
-              (_, i) => `b${String(i + 1).padStart(2, "0")}`,
-            ).map((id) => (
-              <option key={id} value={id}>
-                {id}
-              </option>
-            ))}
-          </select>
-        </div>
-      )}
-
-      <div className="formActions">
-        <button className="btn" onClick={pickAndSave}>
-          Выбрать SVG и сохранить
         </button>
       </div>
     </div>
