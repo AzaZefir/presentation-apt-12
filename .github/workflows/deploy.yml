@@ -33,7 +33,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          name: github-pages
+          name: pages-web-dist      # ✅ другое имя (не github-pages)
           path: web/dist
 
   deploy:
@@ -45,3 +45,5 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: pages-web-dist   # ✅ берем именно этот артефакт
