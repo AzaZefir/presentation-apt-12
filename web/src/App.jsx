@@ -140,20 +140,16 @@ export default function App() {
     ];
   }, []);
   const presentationSlides = useMemo(() => {
-    const list = [{ kind: "master", title: "Схема 11 блоков" }];
-
-    for (const b of BLOCKS) {
-      for (const f of FLOORS) {
-        list.push({
-          kind: "blockFloor",
-          blockId: b.id,
-          floor: f,
-          title: `${b.title} • Этаж ${f}`,
-        });
-      }
-    }
-    return list;
+    return [
+      { kind: "master", title: "Схема 11 блоков" },
+      ...BLOCKS.map((b) => ({
+        kind: "block",
+        blockId: b.id,
+        title: b.title,
+      })),
+    ];
   }, []);
+
   // master svg text (может быть url или текст)
   const [masterSvgText, setMasterSvgText] = useState("");
 
@@ -357,13 +353,14 @@ export default function App() {
           }
 
           // blockFloor
+          // block
           return (
             <PresentationOverlay title={p.title}>
               <FloorPlan
                 blockId={p.blockId}
-                floor={p.floor}
+                floor={1}
                 schemesOverride={schemesOverride}
-                occupiedIds={collectOccupiedIds(p.blockId, p.floor)}
+                occupiedIds={collectOccupiedIds(p.blockId, 1)}
                 operatorEnabled={false}
                 onApartmentClick={() => {}}
               />
@@ -385,38 +382,25 @@ export default function App() {
 
         {current.kind === "block" && (
           <SlideFrame title={`Слайд: ${current.title}`}>
-            <div className="floorsList">
-              {FLOORS.map((floor) => {
-                // occupiedIds for this floor and block
-                const occupiedIds = [];
-                const map = JSON.parse(
-                  localStorage.getItem("apt_presentation_occupancy_v1") || "{}",
-                );
-                const prefix = `${current.blockId}|${floor}|`;
-                for (const k of Object.keys(map)) {
-                  if (k.startsWith(prefix)) {
-                    occupiedIds.push(k.slice(prefix.length));
-                  }
-                }
+            {(() => {
+              const floor = 1;
+              const occupiedIds = collectOccupiedIds(current.blockId, floor);
 
-                return (
-                  <div className="floorCard" key={floor}>
-                    <div className="floorHeader">Этаж {floor}</div>
-
-                    <FloorPlan
-                      blockId={current.blockId}
-                      floor={floor}
-                      schemesOverride={schemesOverride}
-                      occupiedIds={occupiedIds}
-                      operatorEnabled={operatorEnabled}
-                      onApartmentClick={(posKey) =>
-                        requestAssign(current.blockId, floor, posKey)
-                      }
-                    />
-                  </div>
-                );
-              })}
-            </div>
+              return (
+                <div className="floorCard">
+                  <FloorPlan
+                    blockId={current.blockId}
+                    floor={floor}
+                    schemesOverride={schemesOverride}
+                    occupiedIds={occupiedIds}
+                    operatorEnabled={operatorEnabled}
+                    onApartmentClick={(posKey) =>
+                      requestAssign(current.blockId, floor, posKey)
+                    }
+                  />
+                </div>
+              );
+            })()}
           </SlideFrame>
         )}
       </Carousel>
