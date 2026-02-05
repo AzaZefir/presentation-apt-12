@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
 permissions:
   contents: read
@@ -19,7 +19,6 @@ jobs:
     defaults:
       run:
         working-directory: web
-
     steps:
       - uses: actions/checkout@v4
 
@@ -34,6 +33,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
+          name: github-pages
           path: web/dist
 
   deploy:
@@ -42,7 +42,6 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
