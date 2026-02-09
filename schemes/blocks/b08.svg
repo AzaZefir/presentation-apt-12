@@ -1,181 +1,181 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="2200" viewBox="0 0 1400 2200">
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2200" viewBox="0 0 2400 2200">
 <style>
     .bg { fill:#ffffff; }
     .frame { fill:#f7f7f7; stroke:#111; stroke-width:3; }
     .apt { fill:#dff3ff; stroke:#1a1a1a; stroke-width:2; }
     .apt:hover { stroke-width:3; }
-    .label { font-family: Arial, Helvetica, sans-serif; fill:#111; font-size:26px; font-weight:700; }
+    .label { font-family: Arial, Helvetica, sans-serif; fill:#111; font-size:28px; font-weight:700; }
     .small { font-family: Arial, Helvetica, sans-serif; fill:#111; font-size:18px; font-weight:600; }
-    .tiny { font-family: Arial, Helvetica, sans-serif; fill:#111; font-size:14px; font-weight:600; }
+    .tiny { font-family: Arial, Helvetica, sans-serif; fill:#111; font-size:15px; font-weight:700; }
 </style>
-<rect x="0" y="0" width="1400" height="2200" class="bg" />
-<text x="700.0" y="70" class="label" text-anchor="middle">Блок B08 • 15 этажей • 5 квартир/этаж</text>
-<text x="700.0" y="110" class="small" text-anchor="middle">ID квартир: apt_f01_a01 ... apt_f15_a05</text>
-<rect x="60" y="200" width="1280" height="1940" class="frame" rx="16" ry="16" />
-<text x="52" y="278.6666666666667" class="small" text-anchor="end" dominant-baseline="middle">1</text>
-<rect x="80.0" y="220.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f01_a01" />
-<text x="198.4" y="278.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">1</text>
-<rect x="330.8" y="220.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f01_a02" />
-<text x="449.20000000000005" y="278.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2</text>
-<rect x="581.6" y="220.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f01_a03" />
-<text x="700.0" y="278.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">3</text>
-<rect x="832.4000000000001" y="220.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f01_a04" />
-<text x="950.8000000000001" y="278.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">4</text>
-<rect x="1083.2" y="220.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f01_a05" />
-<text x="1201.6000000000001" y="278.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">5</text>
-<text x="52" y="406.0" class="small" text-anchor="end" dominant-baseline="middle">2</text>
-<rect x="80.0" y="347.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f02_a01" />
-<text x="198.4" y="406.0" class="tiny" text-anchor="middle" dominant-baseline="middle">1</text>
-<rect x="330.8" y="347.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f02_a02" />
-<text x="449.20000000000005" y="406.0" class="tiny" text-anchor="middle" dominant-baseline="middle">2</text>
-<rect x="581.6" y="347.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f02_a03" />
-<text x="700.0" y="406.0" class="tiny" text-anchor="middle" dominant-baseline="middle">3</text>
-<rect x="832.4000000000001" y="347.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f02_a04" />
-<text x="950.8000000000001" y="406.0" class="tiny" text-anchor="middle" dominant-baseline="middle">4</text>
-<rect x="1083.2" y="347.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f02_a05" />
-<text x="1201.6000000000001" y="406.0" class="tiny" text-anchor="middle" dominant-baseline="middle">5</text>
-<text x="52" y="533.3333333333333" class="small" text-anchor="end" dominant-baseline="middle">3</text>
-<rect x="80.0" y="474.66666666666663" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f03_a01" />
-<text x="198.4" y="533.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">1</text>
-<rect x="330.8" y="474.66666666666663" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f03_a02" />
-<text x="449.20000000000005" y="533.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">2</text>
-<rect x="581.6" y="474.66666666666663" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f03_a03" />
-<text x="700.0" y="533.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">3</text>
-<rect x="832.4000000000001" y="474.66666666666663" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f03_a04" />
-<text x="950.8000000000001" y="533.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">4</text>
-<rect x="1083.2" y="474.66666666666663" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f03_a05" />
-<text x="1201.6000000000001" y="533.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">5</text>
-<text x="52" y="660.6666666666666" class="small" text-anchor="end" dominant-baseline="middle">4</text>
-<rect x="80.0" y="602.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f04_a01" />
-<text x="198.4" y="660.6666666666666" class="tiny" text-anchor="middle" dominant-baseline="middle">1</text>
-<rect x="330.8" y="602.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f04_a02" />
-<text x="449.20000000000005" y="660.6666666666666" class="tiny" text-anchor="middle" dominant-baseline="middle">2</text>
-<rect x="581.6" y="602.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f04_a03" />
-<text x="700.0" y="660.6666666666666" class="tiny" text-anchor="middle" dominant-baseline="middle">3</text>
-<rect x="832.4000000000001" y="602.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f04_a04" />
-<text x="950.8000000000001" y="660.6666666666666" class="tiny" text-anchor="middle" dominant-baseline="middle">4</text>
-<rect x="1083.2" y="602.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f04_a05" />
-<text x="1201.6000000000001" y="660.6666666666666" class="tiny" text-anchor="middle" dominant-baseline="middle">5</text>
-<text x="52" y="787.9999999999999" class="small" text-anchor="end" dominant-baseline="middle">5</text>
-<rect x="80.0" y="729.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f05_a01" />
-<text x="198.4" y="787.9999999999999" class="tiny" text-anchor="middle" dominant-baseline="middle">1</text>
-<rect x="330.8" y="729.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f05_a02" />
-<text x="449.20000000000005" y="787.9999999999999" class="tiny" text-anchor="middle" dominant-baseline="middle">2</text>
-<rect x="581.6" y="729.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f05_a03" />
-<text x="700.0" y="787.9999999999999" class="tiny" text-anchor="middle" dominant-baseline="middle">3</text>
-<rect x="832.4000000000001" y="729.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f05_a04" />
-<text x="950.8000000000001" y="787.9999999999999" class="tiny" text-anchor="middle" dominant-baseline="middle">4</text>
-<rect x="1083.2" y="729.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f05_a05" />
-<text x="1201.6000000000001" y="787.9999999999999" class="tiny" text-anchor="middle" dominant-baseline="middle">5</text>
-<text x="52" y="915.3333333333333" class="small" text-anchor="end" dominant-baseline="middle">6</text>
-<rect x="80.0" y="856.6666666666666" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f06_a01" />
-<text x="198.4" y="915.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">1</text>
-<rect x="330.8" y="856.6666666666666" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f06_a02" />
-<text x="449.20000000000005" y="915.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">2</text>
-<rect x="581.6" y="856.6666666666666" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f06_a03" />
-<text x="700.0" y="915.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">3</text>
-<rect x="832.4000000000001" y="856.6666666666666" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f06_a04" />
-<text x="950.8000000000001" y="915.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">4</text>
-<rect x="1083.2" y="856.6666666666666" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f06_a05" />
-<text x="1201.6000000000001" y="915.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">5</text>
-<text x="52" y="1042.6666666666667" class="small" text-anchor="end" dominant-baseline="middle">7</text>
-<rect x="80.0" y="984.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f07_a01" />
-<text x="198.4" y="1042.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">1</text>
-<rect x="330.8" y="984.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f07_a02" />
-<text x="449.20000000000005" y="1042.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2</text>
-<rect x="581.6" y="984.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f07_a03" />
-<text x="700.0" y="1042.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">3</text>
-<rect x="832.4000000000001" y="984.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f07_a04" />
-<text x="950.8000000000001" y="1042.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">4</text>
-<rect x="1083.2" y="984.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f07_a05" />
-<text x="1201.6000000000001" y="1042.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">5</text>
-<text x="52" y="1170.0" class="small" text-anchor="end" dominant-baseline="middle">8</text>
-<rect x="80.0" y="1111.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f08_a01" />
-<text x="198.4" y="1170.0" class="tiny" text-anchor="middle" dominant-baseline="middle">1</text>
-<rect x="330.8" y="1111.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f08_a02" />
-<text x="449.20000000000005" y="1170.0" class="tiny" text-anchor="middle" dominant-baseline="middle">2</text>
-<rect x="581.6" y="1111.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f08_a03" />
-<text x="700.0" y="1170.0" class="tiny" text-anchor="middle" dominant-baseline="middle">3</text>
-<rect x="832.4000000000001" y="1111.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f08_a04" />
-<text x="950.8000000000001" y="1170.0" class="tiny" text-anchor="middle" dominant-baseline="middle">4</text>
-<rect x="1083.2" y="1111.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f08_a05" />
-<text x="1201.6000000000001" y="1170.0" class="tiny" text-anchor="middle" dominant-baseline="middle">5</text>
-<text x="52" y="1297.3333333333333" class="small" text-anchor="end" dominant-baseline="middle">9</text>
-<rect x="80.0" y="1238.6666666666665" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f09_a01" />
-<text x="198.4" y="1297.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">1</text>
-<rect x="330.8" y="1238.6666666666665" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f09_a02" />
-<text x="449.20000000000005" y="1297.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">2</text>
-<rect x="581.6" y="1238.6666666666665" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f09_a03" />
-<text x="700.0" y="1297.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">3</text>
-<rect x="832.4000000000001" y="1238.6666666666665" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f09_a04" />
-<text x="950.8000000000001" y="1297.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">4</text>
-<rect x="1083.2" y="1238.6666666666665" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f09_a05" />
-<text x="1201.6000000000001" y="1297.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">5</text>
-<text x="52" y="1424.6666666666667" class="small" text-anchor="end" dominant-baseline="middle">10</text>
-<rect x="80.0" y="1366.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f10_a01" />
-<text x="198.4" y="1424.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">1</text>
-<rect x="330.8" y="1366.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f10_a02" />
-<text x="449.20000000000005" y="1424.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2</text>
-<rect x="581.6" y="1366.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f10_a03" />
-<text x="700.0" y="1424.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">3</text>
-<rect x="832.4000000000001" y="1366.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f10_a04" />
-<text x="950.8000000000001" y="1424.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">4</text>
-<rect x="1083.2" y="1366.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f10_a05" />
-<text x="1201.6000000000001" y="1424.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">5</text>
-<text x="52" y="1552.0" class="small" text-anchor="end" dominant-baseline="middle">11</text>
-<rect x="80.0" y="1493.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f11_a01" />
-<text x="198.4" y="1552.0" class="tiny" text-anchor="middle" dominant-baseline="middle">1</text>
-<rect x="330.8" y="1493.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f11_a02" />
-<text x="449.20000000000005" y="1552.0" class="tiny" text-anchor="middle" dominant-baseline="middle">2</text>
-<rect x="581.6" y="1493.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f11_a03" />
-<text x="700.0" y="1552.0" class="tiny" text-anchor="middle" dominant-baseline="middle">3</text>
-<rect x="832.4000000000001" y="1493.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f11_a04" />
-<text x="950.8000000000001" y="1552.0" class="tiny" text-anchor="middle" dominant-baseline="middle">4</text>
-<rect x="1083.2" y="1493.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f11_a05" />
-<text x="1201.6000000000001" y="1552.0" class="tiny" text-anchor="middle" dominant-baseline="middle">5</text>
-<text x="52" y="1679.3333333333333" class="small" text-anchor="end" dominant-baseline="middle">12</text>
-<rect x="80.0" y="1620.6666666666665" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f12_a01" />
-<text x="198.4" y="1679.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">1</text>
-<rect x="330.8" y="1620.6666666666665" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f12_a02" />
-<text x="449.20000000000005" y="1679.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">2</text>
-<rect x="581.6" y="1620.6666666666665" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f12_a03" />
-<text x="700.0" y="1679.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">3</text>
-<rect x="832.4000000000001" y="1620.6666666666665" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f12_a04" />
-<text x="950.8000000000001" y="1679.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">4</text>
-<rect x="1083.2" y="1620.6666666666665" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f12_a05" />
-<text x="1201.6000000000001" y="1679.3333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">5</text>
-<text x="52" y="1806.6666666666667" class="small" text-anchor="end" dominant-baseline="middle">13</text>
-<rect x="80.0" y="1748.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f13_a01" />
-<text x="198.4" y="1806.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">1</text>
-<rect x="330.8" y="1748.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f13_a02" />
-<text x="449.20000000000005" y="1806.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2</text>
-<rect x="581.6" y="1748.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f13_a03" />
-<text x="700.0" y="1806.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">3</text>
-<rect x="832.4000000000001" y="1748.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f13_a04" />
-<text x="950.8000000000001" y="1806.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">4</text>
-<rect x="1083.2" y="1748.0" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f13_a05" />
-<text x="1201.6000000000001" y="1806.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">5</text>
-<text x="52" y="1934.0" class="small" text-anchor="end" dominant-baseline="middle">14</text>
-<rect x="80.0" y="1875.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f14_a01" />
-<text x="198.4" y="1934.0" class="tiny" text-anchor="middle" dominant-baseline="middle">1</text>
-<rect x="330.8" y="1875.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f14_a02" />
-<text x="449.20000000000005" y="1934.0" class="tiny" text-anchor="middle" dominant-baseline="middle">2</text>
-<rect x="581.6" y="1875.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f14_a03" />
-<text x="700.0" y="1934.0" class="tiny" text-anchor="middle" dominant-baseline="middle">3</text>
-<rect x="832.4000000000001" y="1875.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f14_a04" />
-<text x="950.8000000000001" y="1934.0" class="tiny" text-anchor="middle" dominant-baseline="middle">4</text>
-<rect x="1083.2" y="1875.3333333333333" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f14_a05" />
-<text x="1201.6000000000001" y="1934.0" class="tiny" text-anchor="middle" dominant-baseline="middle">5</text>
-<text x="52" y="2061.333333333333" class="small" text-anchor="end" dominant-baseline="middle">15</text>
-<rect x="80.0" y="2002.6666666666665" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f15_a01" />
-<text x="198.4" y="2061.333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">1</text>
-<rect x="330.8" y="2002.6666666666665" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f15_a02" />
-<text x="449.20000000000005" y="2061.333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">2</text>
-<rect x="581.6" y="2002.6666666666665" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f15_a03" />
-<text x="700.0" y="2061.333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">3</text>
-<rect x="832.4000000000001" y="2002.6666666666665" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f15_a04" />
-<text x="950.8000000000001" y="2061.333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">4</text>
-<rect x="1083.2" y="2002.6666666666665" width="236.8" height="117.33333333333333" class="apt" rx="10" ry="10" id="apt_f15_a05" />
-<text x="1201.6000000000001" y="2061.333333333333" class="tiny" text-anchor="middle" dominant-baseline="middle">5</text>
+<rect x="0" y="0" width="2000" height="2200" class="bg" />
+<text x="1200.0" y="70" class="label" text-anchor="middle">Блок B08 • 15 этажей • 5 квартир/этаж</text>
+<text x="1200.0" y="110" class="small" text-anchor="middle">ID квартир: apt_f01_a01 ... apt_f15_a05</text>
+<rect x="60" y="200" width="1900" height="1965" class="frame" rx="16" ry="16" />
+<text x="52" y="278.6666666666667" class="small" text-anchor="end" dominant-baseline="middle">15</text>
+<rect x="100.0" y="220.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f15_a01" />
+<text x="275.0" y="278.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Б-75.47м2(71кв)</text>
+<rect x="470.0" y="220.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f15_a02" />
+<text x="645.0" y="278.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса А-81.33м2(72кв)</text>
+<rect x="840.0" y="220.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f15_a03" />
+<text x="1015.0" y="278.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Г-74.49м2(73кв)</text>
+<rect x="1210.0" y="220.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f15_a04" />
+<text x="1385.0" y="278.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса В-74.60м2(74кв)</text>
+<rect x="1580.0" y="220.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f15_a05" />
+<text x="1755.0" y="278.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">1 ком. квартира класса А-45.93м2(75кв)</text>
+<text x="52" y="408.00000000000006" class="small" text-anchor="end" dominant-baseline="middle">14</text>
+<rect x="100.0" y="349.33333333333337" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f14_a01" />
+<text x="275.0" y="408.00000000000006" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Б-75.47м2(66кв)</text>
+<rect x="470.0" y="349.33333333333337" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f14_a02" />
+<text x="645.0" y="408.00000000000006" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса А-81.33м2(67кв)</text>
+<rect x="840.0" y="349.33333333333337" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f14_a03" />
+<text x="1015.0" y="408.00000000000006" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Г-74.49м2(68кв)</text>
+<rect x="1210.0" y="349.33333333333337" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f14_a04" />
+<text x="1385.0" y="408.00000000000006" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса В-74.60м2(69кв)</text>
+<rect x="1580.0" y="349.33333333333337" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f14_a05" />
+<text x="1755.0" y="408.00000000000006" class="tiny" text-anchor="middle" dominant-baseline="middle">1 ком. квартира класса А-45.93м2(70кв)</text>
+<text x="52" y="537.3333333333334" class="small" text-anchor="end" dominant-baseline="middle">13</text>
+<rect x="100.0" y="478.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f13_a01" />
+<text x="275.0" y="537.3333333333334" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Б-75.47м2(61кв)</text>
+<rect x="470.0" y="478.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f13_a02" />
+<text x="645.0" y="537.3333333333334" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса А-81.33м2(62кв)</text>
+<rect x="840.0" y="478.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f13_a03" />
+<text x="1015.0" y="537.3333333333334" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Г-74.49м2(63кв)</text>
+<rect x="1210.0" y="478.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f13_a04" />
+<text x="1385.0" y="537.3333333333334" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса В-74.60м2(64кв)</text>
+<rect x="1580.0" y="478.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f13_a05" />
+<text x="1755.0" y="537.3333333333334" class="tiny" text-anchor="middle" dominant-baseline="middle">1 ком. квартира класса А-45.93м2(65кв)</text>
+<text x="52" y="666.6666666666666" class="small" text-anchor="end" dominant-baseline="middle">12</text>
+<rect x="100.0" y="608.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f12_a01" />
+<text x="275.0" y="666.6666666666666" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Б-75.47м2(56кв)</text>
+<rect x="470.0" y="608.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f12_a02" />
+<text x="645.0" y="666.6666666666666" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса А-81.33м2(57кв)</text>
+<rect x="840.0" y="608.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f12_a03" />
+<text x="1015.0" y="666.6666666666666" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Г-74.49м2(58кв)</text>
+<rect x="1210.0" y="608.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f12_a04" />
+<text x="1385.0" y="666.6666666666666" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса В-74.60м2(59кв)</text>
+<rect x="1580.0" y="608.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f12_a05" />
+<text x="1755.0" y="666.6666666666666" class="tiny" text-anchor="middle" dominant-baseline="middle">1 ком. квартира класса А-45.93м2(60кв)</text>
+<text x="52" y="796.0" class="small" text-anchor="end" dominant-baseline="middle">11</text>
+<rect x="100.0" y="737.3333333333334" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f11_a01" />
+<text x="275.0" y="796.0" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Б-75.47м2(51кв)</text>
+<rect x="470.0" y="737.3333333333334" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f11_a02" />
+<text x="645.0" y="796.0" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса А-81.33м2(52кв)</text>
+<rect x="840.0" y="737.3333333333334" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f11_a03" />
+<text x="1015.0" y="796.0" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Г-74.49м2(53кв)</text>
+<rect x="1210.0" y="737.3333333333334" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f11_a04" />
+<text x="1385.0" y="796.0" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса В-74.60м2(54кв)</text>
+<rect x="1580.0" y="737.3333333333334" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f11_a05" />
+<text x="1755.0" y="796.0" class="tiny" text-anchor="middle" dominant-baseline="middle">1 ком. квартира класса А-45.93м2(55кв)</text>
+<text x="52" y="925.3333333333334" class="small" text-anchor="end" dominant-baseline="middle">10</text>
+<rect x="100.0" y="866.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f10_a01" />
+<text x="275.0" y="925.3333333333334" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Б-75.47м2(46кв)</text>
+<rect x="470.0" y="866.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f10_a02" />
+<text x="645.0" y="925.3333333333334" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса А-81.33м2(47кв)</text>
+<rect x="840.0" y="866.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f10_a03" />
+<text x="1015.0" y="925.3333333333334" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Г-74.49м2(48кв)</text>
+<rect x="1210.0" y="866.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f10_a04" />
+<text x="1385.0" y="925.3333333333334" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса В-74.60м2(49кв)</text>
+<rect x="1580.0" y="866.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f10_a05" />
+<text x="1755.0" y="925.3333333333334" class="tiny" text-anchor="middle" dominant-baseline="middle">1 ком. квартира класса А-45.93м2(50кв)</text>
+<text x="52" y="1054.6666666666667" class="small" text-anchor="end" dominant-baseline="middle">9</text>
+<rect x="100.0" y="996.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f09_a01" />
+<text x="275.0" y="1054.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Б-75.47м2(41кв)</text>
+<rect x="470.0" y="996.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f09_a02" />
+<text x="645.0" y="1054.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса А-81.33м2(42кв)</text>
+<rect x="840.0" y="996.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f09_a03" />
+<text x="1015.0" y="1054.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Г-74.49м2(43кв)</text>
+<rect x="1210.0" y="996.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f09_a04" />
+<text x="1385.0" y="1054.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса В-74.60м2(44кв)</text>
+<rect x="1580.0" y="996.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f09_a05" />
+<text x="1755.0" y="1054.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">1 ком. квартира класса А-45.93м2(45кв)</text>
+<text x="52" y="1184.0000000000002" class="small" text-anchor="end" dominant-baseline="middle">8</text>
+<rect x="100.0" y="1125.3333333333335" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f08_a01" />
+<text x="275.0" y="1184.0000000000002" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Б-75.47м2(36кв)</text>
+<rect x="470.0" y="1125.3333333333335" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f08_a02" />
+<text x="645.0" y="1184.0000000000002" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса А-81.33м2(37кв)</text>
+<rect x="840.0" y="1125.3333333333335" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f08_a03" />
+<text x="1015.0" y="1184.0000000000002" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Г-74.49м2(38кв)</text>
+<rect x="1210.0" y="1125.3333333333335" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f08_a04" />
+<text x="1385.0" y="1184.0000000000002" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса В-74.60м2(39кв)</text>
+<rect x="1580.0" y="1125.3333333333335" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f08_a05" />
+<text x="1755.0" y="1184.0000000000002" class="tiny" text-anchor="middle" dominant-baseline="middle">1 ком. квартира класса А-45.93м2(40кв)</text>
+<text x="52" y="1313.3333333333335" class="small" text-anchor="end" dominant-baseline="middle">7</text>
+<rect x="100.0" y="1254.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f07_a01" />
+<text x="275.0" y="1313.3333333333335" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Б-75.47м2(31кв)</text>
+<rect x="470.0" y="1254.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f07_a02" />
+<text x="645.0" y="1313.3333333333335" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса А-81.33м2(32кв)</text>
+<rect x="840.0" y="1254.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f07_a03" />
+<text x="1015.0" y="1313.3333333333335" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Г-74.49м2(33кв)</text>
+<rect x="1210.0" y="1254.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f07_a04" />
+<text x="1385.0" y="1313.3333333333335" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса В-74.60м2(34кв)</text>
+<rect x="1580.0" y="1254.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f07_a05" />
+<text x="1755.0" y="1313.3333333333335" class="tiny" text-anchor="middle" dominant-baseline="middle">1 ком. квартира класса А-45.93м2(35кв)</text>
+<text x="52" y="1442.6666666666667" class="small" text-anchor="end" dominant-baseline="middle">6</text>
+<rect x="100.0" y="1384.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f06_a01" />
+<text x="275.0" y="1442.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Б-75.47м2(26кв)</text>
+<rect x="470.0" y="1384.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f06_a02" />
+<text x="645.0" y="1442.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса А-81.33м2(27кв)</text>
+<rect x="840.0" y="1384.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f06_a03" />
+<text x="1015.0" y="1442.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Г-74.49м2(28кв)</text>
+<rect x="1210.0" y="1384.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f06_a04" />
+<text x="1385.0" y="1442.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса В-74.60м2(29кв)</text>
+<rect x="1580.0" y="1384.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f06_a05" />
+<text x="1755.0" y="1442.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">1 ком. квартира класса А-45.93м2(30кв)</text>
+<text x="52" y="1572.0000000000002" class="small" text-anchor="end" dominant-baseline="middle">5</text>
+<rect x="100.0" y="1513.3333333333335" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f05_a01" />
+<text x="275.0" y="1572.0000000000002" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Б-75.47м2(21кв)</text>
+<rect x="470.0" y="1513.3333333333335" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f05_a02" />
+<text x="645.0" y="1572.0000000000002" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса А-81.33м2(22кв)</text>
+<rect x="840.0" y="1513.3333333333335" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f05_a03" />
+<text x="1015.0" y="1572.0000000000002" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Г-74.49м2(23кв)</text>
+<rect x="1210.0" y="1513.3333333333335" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f05_a04" />
+<text x="1385.0" y="1572.0000000000002" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса В-74.60м2(24кв)</text>
+<rect x="1580.0" y="1513.3333333333335" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f05_a05" />
+<text x="1755.0" y="1572.0000000000002" class="tiny" text-anchor="middle" dominant-baseline="middle">1 ком. квартира класса А-45.93м2(25кв)</text>
+<text x="52" y="1701.3333333333335" class="small" text-anchor="end" dominant-baseline="middle">4</text>
+<rect x="100.0" y="1642.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f04_a01" />
+<text x="275.0" y="1701.3333333333335" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Б-75.47м2(16кв)</text>
+<rect x="470.0" y="1642.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f04_a02" />
+<text x="645.0" y="1701.3333333333335" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса А-81.33м2(17кв)</text>
+<rect x="840.0" y="1642.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f04_a03" />
+<text x="1015.0" y="1701.3333333333335" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Г-74.49м2(18кв)</text>
+<rect x="1210.0" y="1642.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f04_a04" />
+<text x="1385.0" y="1701.3333333333335" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса В-74.60м2(19кв)</text>
+<rect x="1580.0" y="1642.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f04_a05" />
+<text x="1755.0" y="1701.3333333333335" class="tiny" text-anchor="middle" dominant-baseline="middle">1 ком. квартира класса А-45.93м2(20кв)</text>
+<text x="52" y="1830.6666666666667" class="small" text-anchor="end" dominant-baseline="middle">3</text>
+<rect x="100.0" y="1772.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f03_a01" />
+<text x="275.0" y="1830.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Б-75.47м2(11кв)</text>
+<rect x="470.0" y="1772.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f03_a02" />
+<text x="645.0" y="1830.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса А-81.33м2(12кв)</text>
+<rect x="840.0" y="1772.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f03_a03" />
+<text x="1015.0" y="1830.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Г-74.49м2(13кв)</text>
+<rect x="1210.0" y="1772.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f03_a04" />
+<text x="1385.0" y="1830.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса В-74.60м2(14кв)</text>
+<rect x="1580.0" y="1772.0" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f03_a05" />
+<text x="1755.0" y="1830.6666666666667" class="tiny" text-anchor="middle" dominant-baseline="middle">1 ком. квартира класса А-45.93м2(15кв)</text>
+<text x="52" y="1960.0000000000002" class="small" text-anchor="end" dominant-baseline="middle">2</text>
+<rect x="100.0" y="1901.3333333333335" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f02_a01" />
+<text x="275.0" y="1960.0000000000002" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Б-75.47м2(6кв)</text>
+<rect x="470.0" y="1901.3333333333335" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f02_a02" />
+<text x="645.0" y="1960.0000000000002" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса А-81.33м2(7кв)</text>
+<rect x="840.0" y="1901.3333333333335" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f02_a03" />
+<text x="1015.0" y="1960.0000000000002" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Г-74.49м2(8кв)</text>
+<rect x="1210.0" y="1901.3333333333335" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f02_a04" />
+<text x="1385.0" y="1960.0000000000002" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса В-74.60м2(9кв)</text>
+<rect x="1580.0" y="1901.3333333333335" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f02_a05" />
+<text x="1755.0" y="1960.0000000000002" class="tiny" text-anchor="middle" dominant-baseline="middle">1 ком. квартира класса А-45.93м2(10кв)</text>
+<text x="52" y="2089.3333333333335" class="small" text-anchor="end" dominant-baseline="middle">1</text>
+<rect x="100.0" y="2030.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f01_a01" />
+<text x="275.0" y="2089.3333333333335" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Б-75.47м2(1кв)</text>
+<rect x="470.0" y="2030.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f01_a02" />
+<text x="645.0" y="2089.3333333333335" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса А-81.33м2(2кв)</text>
+<rect x="840.0" y="2030.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f01_a03" />
+<text x="1015.0" y="2089.3333333333335" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса Г-74.49м2(3кв)</text>
+<rect x="1210.0" y="2030.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f01_a04" />
+<text x="1385.0" y="2089.3333333333335" class="tiny" text-anchor="middle" dominant-baseline="middle">2 ком. квартира класса В-74.60м2(4кв)</text>
+<rect x="1580.0" y="2030.6666666666667" width="350.0" height="117.33333333333334" class="apt" rx="10" ry="10" id="apt_f01_a05" />
+<text x="1755.0" y="2089.3333333333335" class="tiny" text-anchor="middle" dominant-baseline="middle">1 ком. квартира класса А-45.93м2(5кв)</text>
 </svg>
