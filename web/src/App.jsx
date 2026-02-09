@@ -1,6 +1,6 @@
 // App.jsx
 import React, { useMemo, useState, useEffect } from "react";
-import { BLOCKS, FLOORS, DEFAULT_OPERATOR_PASSWORD_HASH } from "./config.js";
+import { BLOCKS, FLOORS } from "./config.js";
 import { defaultSchemes } from "./schemes/defaultSchemes.js";
 import {
   buildBackupJson,
@@ -14,8 +14,7 @@ import {
   saveSettings,
   getSvgText,
   resolveSchemeKey,
-  loadOperatorSession,
-  saveOperatorSession,
+  collectOccupiedIdsByBlock,
 } from "./storage.js";
 import { sha256Hex } from "./crypto.js";
 
@@ -36,6 +35,11 @@ function downloadJson(filename, obj) {
   a.download = filename;
   a.click();
   URL.revokeObjectURL(url);
+}
+
+function floorFromPosKey(posKey) {
+  const m = String(posKey).match(/^apt_f(\d{2})_/i);
+  return m ? Number(m[1]) : 1;
 }
 
 function exportBackup() {
@@ -61,16 +65,6 @@ function importBackup() {
   input.click();
 }
 
-function changePassword() {
-  const p = prompt("Новый пароль оператора (запомните его!):");
-  if (!p) return;
-  sha256Hex(p).then((h) => {
-    const s = loadSettings();
-    s.operatorPasswordHash = h;
-    saveSettings(s);
-    alert("Пароль изменён. Перезагрузите страницу.");
-  });
-}
 function FloorPlan({
   blockId,
   floor,
@@ -114,11 +108,10 @@ export default function App() {
   const [presentationMode, setPresentationMode] = useState(false);
   const [presentationIndex, setPresentationIndex] = useState(0);
   const [autoPlay, setAutoPlay] = useState(false);
-  const [autoMs, setAutoMs] = useState(5000); // 5 сек
-  const [operatorEnabled, setOperatorEnabled] = useState(() =>
-    loadOperatorSession(),
-  );
-  const [loginOpen, setLoginOpen] = useState(false);
+  const [autoMs, setAutoMs] = useState(5000);
+
+  // ✅ Оператор всегда включен (логика логина удалена)
+  const operatorEnabled = true;
 
   const [assignOpen, setAssignOpen] = useState(false);
   const [assignCtx, setAssignCtx] = useState(null);
@@ -126,12 +119,8 @@ export default function App() {
 
   const [schemeOpen, setSchemeOpen] = useState(false);
 
-  // чтобы перезагружать overrides после сохранения
   const [schemesVersion, setSchemesVersion] = useState(0);
-  const schemesOverride = useMemo(
-    () => loadSchemeOverrides(),
-    [schemesVersion],
-  );
+  const schemesOverride = useMemo(() => loadSchemeOverrides(), [schemesVersion]);
 
   const slides = useMemo(() => {
     return [
@@ -139,18 +128,14 @@ export default function App() {
       ...BLOCKS.map((b) => ({ kind: "block", blockId: b.id, title: b.title })),
     ];
   }, []);
+
   const presentationSlides = useMemo(() => {
     return [
       { kind: "master", title: "Схема 11 блоков" },
-      ...BLOCKS.map((b) => ({
-        kind: "block",
-        blockId: b.id,
-        title: b.title,
-      })),
+      ...BLOCKS.map((b) => ({ kind: "block", blockId: b.id, title: b.title })),
     ];
   }, []);
 
-  // master svg text (может быть url или текст)
   const [masterSvgText, setMasterSvgText] = useState("");
 
   useEffect(() => {
@@ -159,7 +144,7 @@ export default function App() {
     const t = setInterval(() => {
       setPresentationIndex((i) => {
         const last = presentationSlides.length - 1;
-        return i >= last ? last : i + 1; // можно сделать циклом, если хочешь
+        return i >= last ? last : i + 1;
       });
     }, autoMs);
 
@@ -188,16 +173,17 @@ export default function App() {
   function next() {
     setSlide((s) => Math.min(slides.length - 1, s + 1));
   }
+
   useEffect(() => {
     function onKey(e) {
       // если открыт любой модал — не вмешиваемся
-      if (loginOpen || assignOpen || schemeOpen) return;
+      if (assignOpen || schemeOpen) return;
 
       // ENTER запускает презентацию
       if (!presentationMode && e.key === "Enter") {
         e.preventDefault();
         setPresentationMode(true);
-        setPresentationIndex(0); // старт с master
+        setPresentationIndex(0);
         return;
       }
 
@@ -214,7 +200,7 @@ export default function App() {
           e.preventDefault();
           setPresentationIndex((i) => Math.max(0, i - 1));
         }
-        if (e.key === "ArrowRight" || e.key === " " /* Space */) {
+        if (e.key === "ArrowRight" || e.key === " ") {
           e.preventDefault();
           setPresentationIndex((i) =>
             Math.min(presentationSlides.length - 1, i + 1),
@@ -229,64 +215,37 @@ export default function App() {
 
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [
-    presentationMode,
-    presentationSlides.length,
-    loginOpen,
-    assignOpen,
-    schemeOpen,
-  ]);
+  }, [presentationMode, presentationSlides.length, assignOpen, schemeOpen]);
 
-  async function doLogin(password) {
-    const settings = loadSettings();
-    const savedHash =
-      settings.operatorPasswordHash || DEFAULT_OPERATOR_PASSWORD_HASH;
-    const h = await sha256Hex(password);
-    if (h === savedHash) {
-      setOperatorEnabled(true);
-      saveOperatorSession(true);
-      setLoginOpen(false);
-      return true;
+function requestAssign(blockId, _floorIgnored, posKey) {
+  const realFloor = floorFromPosKey(posKey);
+
+  const existing = getOccupancy(blockId, realFloor, posKey);
+  if (existing) {
+    const ok = confirm(`Квартира уже занята на имя: ${existing.name}.\nОсвободить?`);
+    if (ok) {
+      releaseOccupied(blockId, realFloor, posKey);
+      setSlide((s) => s);
     }
-    return false;
+    return;
   }
 
-  function logout() {
-    setOperatorEnabled(false);
-    saveOperatorSession(false);
-  }
+  setAssignCtx({ blockId, floor: realFloor, posKey });
+  setFullName("");
+  setAssignOpen(true);
+}
 
-  function requestAssign(blockId, floor, posKey) {
-    const existing = getOccupancy(blockId, floor, posKey);
-    if (existing) {
-      const ok = confirm(
-        `Квартира уже занята на имя: ${existing.name}.\nОсвободить?`,
-      );
-      if (ok) {
-        releaseOccupied(blockId, floor, posKey);
-        setSlide((s) => s);
-      }
-      return;
-    }
+function confirmAssign() {
+  if (!assignCtx) return;
+  if (!fullName.trim()) return;
 
-    setAssignCtx({ blockId, floor, posKey });
-    setFullName("");
-    setAssignOpen(true);
-  }
+  setOccupied(assignCtx.blockId, assignCtx.floor, assignCtx.posKey, fullName.trim());
 
-  function confirmAssign() {
-    if (!assignCtx) return;
-    if (!fullName.trim()) return;
-    setOccupied(
-      assignCtx.blockId,
-      assignCtx.floor,
-      assignCtx.posKey,
-      fullName.trim(),
-    );
-    setAssignOpen(false);
-    setAssignCtx(null);
-    setSlide((s) => s);
-  }
+  setAssignOpen(false);
+  setAssignCtx(null);
+  setSlide((s) => s);
+}
+
 
   function replaceSchemes() {
     setSchemeOpen(true);
@@ -308,7 +267,7 @@ export default function App() {
     if (kind === "blockFloor") {
       over.blocks[blockId] = over.blocks[blockId] || { floors: {} };
       over.blocks[blockId].floors = over.blocks[blockId].floors || {};
-      over.blocks[blockId].floors[String(floor)] = svgText; // ключи как строки в JSON
+      over.blocks[blockId].floors[String(floor)] = svgText;
     }
 
     saveSchemeOverrides(over);
@@ -322,19 +281,11 @@ export default function App() {
     <div className="app">
       <OperatorBar
         operatorEnabled={operatorEnabled}
-        onLock={() => (operatorEnabled ? logout() : setLoginOpen(true))}
         onExport={exportBackup}
         onImport={importBackup}
         onReplaceSchemes={replaceSchemes}
       />
 
-      <div className="topActions">
-        {operatorEnabled && (
-          <button className="btn" onClick={changePassword}>
-            Сменить пароль
-          </button>
-        )}
-      </div>
       {presentationMode &&
         (() => {
           const p = presentationSlides[presentationIndex];
@@ -352,15 +303,13 @@ export default function App() {
             );
           }
 
-          // blockFloor
-          // block
           return (
             <PresentationOverlay title={p.title}>
               <FloorPlan
                 blockId={p.blockId}
                 floor={1}
                 schemesOverride={schemesOverride}
-                occupiedIds={collectOccupiedIds(p.blockId, 1)}
+                occupiedIds={collectOccupiedIdsByBlock(p.blockId)}
                 operatorEnabled={false}
                 onApartmentClick={() => {}}
               />
@@ -384,7 +333,6 @@ export default function App() {
           <SlideFrame title={`Слайд: ${current.title}`}>
             {(() => {
               const floor = 1;
-              const occupiedIds = collectOccupiedIds(current.blockId, floor);
 
               return (
                 <div className="floorCard">
@@ -392,7 +340,7 @@ export default function App() {
                     blockId={current.blockId}
                     floor={floor}
                     schemesOverride={schemesOverride}
-                    occupiedIds={occupiedIds}
+                    occupiedIds={collectOccupiedIdsByBlock(current.blockId)}
                     operatorEnabled={operatorEnabled}
                     onApartmentClick={(posKey) =>
                       requestAssign(current.blockId, floor, posKey)
@@ -404,17 +352,6 @@ export default function App() {
           </SlideFrame>
         )}
       </Carousel>
-
-      <Modal
-        open={loginOpen}
-        title="Вход оператора"
-        onClose={() => setLoginOpen(false)}
-      >
-        <LoginForm onLogin={doLogin} />
-        <div className="hint">
-          Пароль по умолчанию: <b>admin123</b> (после входа можно поменять)
-        </div>
-      </Modal>
 
       <Modal
         open={assignOpen}
@@ -467,47 +404,7 @@ export default function App() {
   );
 }
 
-function LoginForm({ onLogin }) {
-  const [pw, setPw] = useState("");
-  const [err, setErr] = useState("");
 
-  async function submit() {
-    setErr("");
-    const ok = await onLogin(pw);
-    if (!ok) setErr("Неверный пароль");
-  }
-
-  return (
-    <div>
-      <div className="formRow">
-        <div className="label">Пароль</div>
-        <input
-          className="input"
-          type="password"
-          value={pw}
-          onChange={(e) => setPw(e.target.value)}
-        />
-      </div>
-      {err && <div className="error">{err}</div>}
-      <div className="formActions">
-        <button className="btn" onClick={submit} disabled={!pw}>
-          Войти
-        </button>
-      </div>
-    </div>
-  );
-}
-function collectOccupiedIds(blockId, floor) {
-  const map = JSON.parse(
-    localStorage.getItem("apt_presentation_occupancy_v1") || "{}",
-  );
-  const occupiedIds = [];
-  const prefix = `${blockId}|${floor}|`;
-  for (const k of Object.keys(map)) {
-    if (k.startsWith(prefix)) occupiedIds.push(k.slice(prefix.length));
-  }
-  return occupiedIds;
-}
 function PresentationOverlay({ title, children }) {
   return (
     <div className="pptOverlay">

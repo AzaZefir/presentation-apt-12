@@ -1,7 +1,6 @@
 // storage.js
 // ВАЖНО: оставь твои существующие buildBackupJson/restoreFromBackupJson/getOccupancy/setOccupied/releaseOccupied/loadSettings/saveSettings
 // ниже я добавляю/заменяю только схемы + резолвер + getSvgText.
-// Если у тебя файл целиком — просто вставь эти функции и константы.
 
 const SCHEMES_KEY = "apt_presentation_schemes_v2";
 
@@ -20,7 +19,7 @@ export function loadSchemeOverrides() {
           v.blocks[k] = { default: val, floors: {} };
         }
 
-        // 🔴 ВАЖНО: гарантируем floors
+        // гарантируем floors
         if (!v.blocks[k].floors) {
           v.blocks[k].floors = {};
         }
@@ -33,12 +32,11 @@ export function loadSchemeOverrides() {
   }
 }
 
-
 export function saveSchemeOverrides(over) {
   localStorage.setItem(SCHEMES_KEY, JSON.stringify(over || {}));
 }
 
-// svgText может быть и URL ("/schemes/...") и "<svg..."
+// svgText может быть и URL ("/schemes/...") и "<svg...>"
 export async function getSvgText(svgOrUrl) {
   if (!svgOrUrl) return "";
   const s = String(svgOrUrl).trim();
@@ -48,7 +46,7 @@ export async function getSvgText(svgOrUrl) {
 }
 
 /**
- * Строгое правило выбора (приоритет):
+ * Приоритет выбора:
  * master:
  *  1) override master
  *  2) default master
@@ -69,30 +67,14 @@ export function resolveSchemeKey({ kind, blockId, floor, defaults, overrides }) 
 
   const floorKey = String(floor);
 
-  // 1️⃣ override этаж
-  if (oBlock.floors && oBlock.floors[floorKey]) {
-    return oBlock.floors[floorKey];
-  }
+  if (oBlock.floors && oBlock.floors[floorKey]) return oBlock.floors[floorKey];
+  if (oBlock.default) return oBlock.default;
+  if (dBlock.floors && dBlock.floors[floorKey]) return dBlock.floors[floorKey];
 
-  // 2️⃣ override типовой блока
-  if (oBlock.default) {
-    return oBlock.default;
-  }
-
-  // 3️⃣ дефолт этажный
-  if (dBlock.floors && dBlock.floors[floorKey]) {
-    return dBlock.floors[floorKey];
-  }
-
-  // 4️⃣ дефолт типовой
   return dBlock.default || "";
 }
 
-
-// -------------------- Backup (минимальная интеграция) --------------------
-// Если у тебя buildBackupJson уже есть — добавь туда schemes/settings/occupancy как ты делал.
-// Ниже пример, как должно быть. Если у тебя уже реализовано — просто убедись, что key SCHEMES_KEY учтен.
-
+// -------------------- Backup --------------------
 export function buildBackupJson() {
   const occupancy = JSON.parse(
     localStorage.getItem("apt_presentation_occupancy_v1") || "{}",
@@ -125,10 +107,7 @@ export function restoreFromBackupJson(obj) {
   }
 }
 
-// -------------------- Occupancy + Settings (заглушки, если у тебя уже есть — не трогай) --------------------
-// Оставляю здесь только чтобы файл был "самодостаточным".
-// Если у тебя уже это есть — удали этот блок или замени на свой.
-
+// -------------------- Occupancy + Settings --------------------
 const OCC_KEY = "apt_presentation_occupancy_v1";
 const SETTINGS_KEY = "apt_presentation_settings_v1";
 
@@ -161,19 +140,17 @@ export function saveSettings(s) {
   localStorage.setItem(SETTINGS_KEY, JSON.stringify(s || {}));
 }
 
-const OP_SESSION_KEY = "apt_presentation_operator_session_v1";
-
-export function loadOperatorSession() {
-  try {
-    return localStorage.getItem(OP_SESSION_KEY) === "1";
-  } catch {
-    return false;
+// ✅ занятые id по ВСЕМ этажам блока (если нужно подсветить блок целиком)
+export function collectOccupiedIdsByBlock(blockId) {
+  const map = JSON.parse(localStorage.getItem(OCC_KEY) || "{}");
+  const ids = [];
+  const prefix = `${blockId}|`;
+  for (const k of Object.keys(map)) {
+    if (k.startsWith(prefix)) {
+      const parts = k.split("|");
+      const posKey = parts[2];
+      if (posKey) ids.push(posKey);
+    }
   }
-}
-
-export function saveOperatorSession(enabled) {
-  try {
-    if (enabled) localStorage.setItem(OP_SESSION_KEY, "1");
-    else localStorage.removeItem(OP_SESSION_KEY);
-  } catch {}
+  return ids;
 }

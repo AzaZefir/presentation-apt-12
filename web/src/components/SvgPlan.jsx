@@ -5,7 +5,9 @@ function paint(el, on, operatorEnabled) {
 
   const drawables = el.matches("path,rect,polygon,polyline,circle,ellipse")
     ? [el]
-    : Array.from(el.querySelectorAll("path,rect,polygon,polyline,circle,ellipse"));
+    : Array.from(
+        el.querySelectorAll("path,rect,polygon,polyline,circle,ellipse"),
+      );
 
   const targets = drawables.length ? drawables : [el];
 
@@ -16,7 +18,11 @@ function paint(el, on, operatorEnabled) {
       t.style.setProperty("fill-opacity", "0.55", "important");
       t.style.setProperty("stroke", "#ff3b30", "important");
       t.style.setProperty("stroke-opacity", "0.9", "important");
-      t.style.setProperty("cursor", operatorEnabled ? "pointer" : "default", "important");
+      t.style.setProperty(
+        "cursor",
+        operatorEnabled ? "pointer" : "default",
+        "important",
+      );
     } else {
       t.removeAttribute("data-occupied");
       t.style.removeProperty("fill");
@@ -28,23 +34,29 @@ function paint(el, on, operatorEnabled) {
   }
 }
 
-export default function SvgPlan({ svgText, operatorEnabled, onApartmentClick, occupiedIds = [] }) {
+export default function SvgPlan({
+  svgText,
+  operatorEnabled,
+  onApartmentClick,
+  occupiedIds = [],
+}) {
   const ref = useRef(null);
 
   // ✅ клики
+  // ✅ клики (ВАЖНО: зависит от svgText, иначе при первом появлении SVG handler не повесится)
   useEffect(() => {
     const root = ref.current;
     if (!root) return;
 
     const handler = (e) => {
       if (!operatorEnabled) return;
-      const el = e.target?.closest?.('[id^="apt_"]');
+      const el = e.target?.closest?.('[id^="apt_"], [id^="apt_f"]');
       if (el && root.contains(el)) onApartmentClick?.(el.id);
     };
 
     root.addEventListener("click", handler);
     return () => root.removeEventListener("click", handler);
-  }, [operatorEnabled, onApartmentClick]);
+  }, [operatorEnabled, onApartmentClick, svgText]);
 
   // ✅ заставляем SVG вписываться в контейнер
   useEffect(() => {
@@ -69,7 +81,7 @@ export default function SvgPlan({ svgText, operatorEnabled, onApartmentClick, oc
     svg.style.maxWidth = "100%";
     svg.style.maxHeight = "100%";
     svg.style.display = "block";
-    svg.style.objectFit = "contain";   // вписывать целиком
+    svg.style.objectFit = "contain"; // вписывать целиком
     svg.style.overflow = "visible";
     svg.style.touchAction = "manipulation";
   }, [svgText]);
@@ -79,7 +91,9 @@ export default function SvgPlan({ svgText, operatorEnabled, onApartmentClick, oc
     const root = ref.current;
     if (!root) return;
 
-    root.querySelectorAll('[data-occupied="1"]').forEach((el) => paint(el, false, operatorEnabled));
+    root
+      .querySelectorAll('[data-occupied="1"]')
+      .forEach((el) => paint(el, false, operatorEnabled));
 
     for (const id of occupiedIds) {
       const el = root.querySelector(`#${CSS.escape(id)}`);
@@ -91,14 +105,19 @@ export default function SvgPlan({ svgText, operatorEnabled, onApartmentClick, oc
   useEffect(() => {
     const root = ref.current;
     if (!root) return;
-    root.querySelectorAll('[id^="apt_"]').forEach((el) => (el.style.pointerEvents = "all"));
+    root.querySelectorAll('[id^="apt_"], [id^="apt_f"]')
+      .forEach((el) => (el.style.pointerEvents = "all"));
   }, [svgText]);
 
   if (!svgText) return <div style={{ padding: 20 }}>Нет схемы…</div>;
 
   return (
     <div className="planFit">
-      <div ref={ref} className="planSvg" dangerouslySetInnerHTML={{ __html: svgText }} />
+      <div
+        ref={ref}
+        className="planSvg"
+        dangerouslySetInnerHTML={{ __html: svgText }}
+      />
     </div>
   );
 }

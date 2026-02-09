@@ -253,7 +253,7 @@ body {
 /* Контейнер схемы — фиксируем высоту (например, 70% окна) */
 .planFit {
   width: 100%;
-  height: min(80vh, 100vh);   /* можно менять */
+  height: min(83vh, 100vh);   /* можно менять */
   background: #fff;
   border-radius: 12px;
   overflow: hidden;
