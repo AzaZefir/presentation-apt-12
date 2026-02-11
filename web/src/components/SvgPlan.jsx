@@ -14,7 +14,7 @@ function paint(el, on, operatorEnabled) {
   for (const t of targets) {
     if (on) {
       t.setAttribute("data-occupied", "1");
-      t.style.setProperty("fill", "#ff3b30", "important");
+      t.style.setProperty("fill", "#ff0d00", "important");
       t.style.setProperty("fill-opacity", "0.55", "important");
       t.style.setProperty("stroke", "#ff3b30", "important");
       t.style.setProperty("stroke-opacity", "0.9", "important");

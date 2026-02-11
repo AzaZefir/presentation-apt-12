@@ -1,48 +1,125 @@
 import * as XLSX from "xlsx";
 import { defaultSchemes } from "../schemes/defaultSchemes.js";
-import { loadSchemeOverrides, resolveSchemeKey, getSvgText } from "../storage.js";
+import {
+  loadSchemeOverrides,
+  resolveSchemeKey,
+  getSvgText,
+} from "../storage.js";
 
-function floorFromPosKey(posKey) {
-  const m = String(posKey).match(/^apt_f(\d{2})_/i);
-  return m ? Number(m[1]) : 1;
+/* =========================================================
+   HELPERS
+   ========================================================= */
+
+function normalizeText(s) {
+  return String(s || "").replace(/\s+/g, " ").trim();
 }
 
-// aptId -> "текст внутри tiny"
-function buildAptLabelMapFromSvg(svgText) {
-  const map = new Map();
-  if (!svgText) return map;
+function parseTranslateY(transform) {
+  // transform="translate(0 288.48)" или "translate(2.59 834.81)"
+  const m = String(transform || "").match(/translate\(\s*[-\d.]+\s+([-\d.]+)\s*\)/i);
+  return m ? Number(m[1]) : null;
+}
+
+function tryFloorFromPosKey(posKey) {
+  const m = String(posKey || "").match(/^apt_f(\d{1,2})_/i);
+  return m ? Number(m[1]) : null;
+}
+
+function resolveFloorFallback(posKey, floorStr) {
+  const fromPos = tryFloorFromPosKey(posKey);
+  if (Number.isFinite(fromPos)) return fromPos;
+
+  const fromKey = Number(floorStr);
+  if (Number.isFinite(fromKey) && fromKey > 0) return fromKey;
+
+  return 1;
+}
+
+/* =========================================================
+   SVG -> (labelMap + floorMap)
+   ========================================================= */
+
+/**
+ * Возвращает:
+ *  - labelMap: rectId -> "2 ком.74.60м2(44кв)"
+ *  - floorMap: rectId -> 1..15  (по координате Y)
+ */
+function buildAptMapsFromSvg(svgText) {
+  const labelMap = new Map();
+  const floorMap = new Map();
+
+  if (!svgText) return { labelMap, floorMap };
 
   const doc = new DOMParser().parseFromString(svgText, "image/svg+xml");
   const svg = doc.querySelector("svg");
-  if (!svg) return map;
+  if (!svg) return { labelMap, floorMap };
 
-  // В твоём SVG: <rect id="apt_..."/> затем сразу <text class="tiny">...</text>
-  const elems = Array.from(svg.children);
+  // 1) Собираем подписи этажей слева: text.cls-3 с transform translate(x y)
+  const floorMarks = Array.from(svg.querySelectorAll("text.cls-3"))
+    .map((t) => {
+      const y = parseTranslateY(t.getAttribute("transform"));
+      const floor = Number(normalizeText(t.textContent));
+      if (!Number.isFinite(y) || !Number.isFinite(floor)) return null;
+      return { floor, y };
+    })
+    .filter(Boolean);
 
-  for (let i = 0; i < elems.length - 1; i++) {
-    const el = elems[i];
-    if (el.tagName.toLowerCase() !== "rect") continue;
+  // если почему-то классы другие — можно расширить селектор:
+  // const floorMarks = ... querySelectorAll("text") ... фильтр по числу 1..40
 
-    const id = el.getAttribute("id");
-    if (!id || !id.startsWith("apt_")) continue;
+  // 2) Квартиры: rect[id^="apt_"]
+  const rects = Array.from(svg.querySelectorAll("rect[id^='apt_']"));
 
-    const next = elems[i + 1];
-    if (next?.tagName?.toLowerCase() !== "text") continue;
+  for (const rect of rects) {
+    const id = rect.getAttribute("id");
+    if (!id) continue;
 
-    const cls = (next.getAttribute("class") || "").trim();
-    if (!cls.includes("tiny")) continue;
+    // ----- LABEL (берём ближайший следующий <text> до следующего <rect>) -----
+    let el = rect.nextElementSibling;
+    let label = "";
 
-    const label = (next.textContent || "").trim();
-    if (label) map.set(id, label);
+    while (el) {
+      const tag = el.tagName?.toLowerCase?.();
+      if (tag === "rect") break;
+      if (tag === "text") {
+        label = normalizeText(el.textContent);
+        break;
+      }
+      el = el.nextElementSibling;
+    }
+
+    if (label) labelMap.set(id, label);
+
+    // ----- FLOOR (по y) -----
+    const yRect = Number(rect.getAttribute("y"));
+    const hRect = Number(rect.getAttribute("height")) || 0;
+    const yCenter = Number.isFinite(yRect) ? (yRect + hRect / 2) : null;
+
+    if (Number.isFinite(yCenter) && floorMarks.length) {
+      // выбираем floor с ближайшим y (подпись этажа находится по центру полосы)
+      let best = floorMarks[0];
+      let bestDist = Math.abs(yCenter - best.y);
+
+      for (let i = 1; i < floorMarks.length; i++) {
+        const fm = floorMarks[i];
+        const d = Math.abs(yCenter - fm.y);
+        if (d < bestDist) {
+          best = fm;
+          bestDist = d;
+        }
+      }
+
+      floorMap.set(id, best.floor);
+    }
   }
 
-  return map;
+  return { labelMap, floorMap };
 }
 
-async function loadAptLabelsForBlock(blockId) {
+async function loadAptMapsForBlock(blockId) {
   const overrides = loadSchemeOverrides();
 
-  // floor неважен, потому что у тебя один SVG содержит все этажи
+  // Берём любой floor (у тебя один SVG на блок, содержащий все этажи)
   const key = resolveSchemeKey({
     kind: "block",
     blockId,
@@ -52,8 +129,12 @@ async function loadAptLabelsForBlock(blockId) {
   });
 
   const svgText = await getSvgText(key);
-  return buildAptLabelMapFromSvg(svgText);
+  return buildAptMapsFromSvg(svgText);
 }
+
+/* =========================================================
+   EXPORT
+   ========================================================= */
 
 async function exportOccupancyToExcel() {
   const raw = JSON.parse(
@@ -66,31 +147,41 @@ async function exportOccupancyToExcel() {
     return;
   }
 
-  // ✅ соберём список блоков и для каждого подгрузим map id->label
+  // блоки из данных
   const blockIds = Array.from(new Set(keys.map((k) => k.split("|")[0])));
-  const labelMaps = {}; // blockId -> Map
 
+  // грузим maps для каждого блока
+  const mapsByBlock = {}; // blockId -> {labelMap, floorMap}
   for (const b of blockIds) {
     try {
-      labelMaps[b] = await loadAptLabelsForBlock(b);
+      mapsByBlock[b] = await loadAptMapsForBlock(b);
     } catch {
-      labelMaps[b] = new Map();
+      mapsByBlock[b] = { labelMap: new Map(), floorMap: new Map() };
     }
   }
 
   const rows = [];
 
   for (const key of keys) {
-    const [blockId, floorStr, aptId] = key.split("|");
-    const floor = Number(floorStr) || floorFromPosKey(aptId);
+    const [blockId, floorStr, posKey] = key.split("|");
     const item = raw[key];
 
-    const aptLabel = labelMaps[blockId]?.get(aptId) || aptId; // fallback
+    const maps = mapsByBlock[blockId] || { labelMap: new Map(), floorMap: new Map() };
+
+    // 1) Самый точный этаж — из SVG по Y
+    // 2) fallback — из posKey / floorStr / 1
+    const floor =
+      maps.floorMap.get(posKey) ??
+      resolveFloorFallback(posKey, floorStr);
+
+    const aptLabel =
+      maps.labelMap.get(posKey) ||
+      posKey;
 
     rows.push({
       "Блок": blockId,
       "Этаж": Number(floor),
-      "Квартира": aptLabel, // ✅ вместо id пишем текст из <text class="tiny">
+      "Квартира": aptLabel,
       "ФИО": item?.name || "",
       "Дата назначения": item?.at
         ? new Date(item.at).toLocaleString("ru-RU")
@@ -98,7 +189,6 @@ async function exportOccupancyToExcel() {
     });
   }
 
-  // сортировка для удобства
   rows.sort((a, b) =>
     a.Блок.localeCompare(b.Блок) ||
     a.Этаж - b.Этаж ||
