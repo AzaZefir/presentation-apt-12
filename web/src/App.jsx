@@ -108,7 +108,7 @@ export default function App() {
   const [presentationMode, setPresentationMode] = useState(false);
   const [presentationIndex, setPresentationIndex] = useState(0);
   const [autoPlay, setAutoPlay] = useState(false);
-  const [autoMs, setAutoMs] = useState(5000);
+  const [autoMs, setAutoMs] = useState(10000);
 
   // ✅ Оператор всегда включен (логика логина удалена)
   const operatorEnabled = true;
@@ -120,7 +120,10 @@ export default function App() {
   const [schemeOpen, setSchemeOpen] = useState(false);
 
   const [schemesVersion, setSchemesVersion] = useState(0);
-  const schemesOverride = useMemo(() => loadSchemeOverrides(), [schemesVersion]);
+  const schemesOverride = useMemo(
+    () => loadSchemeOverrides(),
+    [schemesVersion],
+  );
 
   const slides = useMemo(() => {
     return [
@@ -142,10 +145,7 @@ export default function App() {
     if (!presentationMode || !autoPlay) return;
 
     const t = setInterval(() => {
-      setPresentationIndex((i) => {
-        const last = presentationSlides.length - 1;
-        return i >= last ? last : i + 1;
-      });
+      setPresentationIndex((i) => (i + 1) % presentationSlides.length);
     }, autoMs);
 
     return () => clearInterval(t);
@@ -187,25 +187,27 @@ export default function App() {
         return;
       }
 
-      // ESC выходит из презентации
       if (presentationMode && e.key === "Escape") {
         e.preventDefault();
         setPresentationMode(false);
+        setAutoPlay(false);
         return;
       }
 
       // Навигация внутри презентации
       if (presentationMode) {
+        const len = presentationSlides.length;
+
         if (e.key === "ArrowLeft") {
           e.preventDefault();
-          setPresentationIndex((i) => Math.max(0, i - 1));
+          setPresentationIndex((i) => (i - 1 + len) % len);
         }
+
         if (e.key === "ArrowRight" || e.key === " ") {
           e.preventDefault();
-          setPresentationIndex((i) =>
-            Math.min(presentationSlides.length - 1, i + 1),
-          );
+          setPresentationIndex((i) => (i + 1) % len);
         }
+
         if (e.key === "a" || e.key === "A") {
           e.preventDefault();
           setAutoPlay((v) => !v);
@@ -217,35 +219,41 @@ export default function App() {
     return () => window.removeEventListener("keydown", onKey);
   }, [presentationMode, presentationSlides.length, assignOpen, schemeOpen]);
 
-function requestAssign(blockId, _floorIgnored, posKey) {
-  const realFloor = floorFromPosKey(posKey);
+  function requestAssign(blockId, _floorIgnored, posKey) {
+    const realFloor = floorFromPosKey(posKey);
 
-  const existing = getOccupancy(blockId, realFloor, posKey);
-  if (existing) {
-    const ok = confirm(`Квартира уже занята на имя: ${existing.name}.\nОсвободить?`);
-    if (ok) {
-      releaseOccupied(blockId, realFloor, posKey);
-      setSlide((s) => s);
+    const existing = getOccupancy(blockId, realFloor, posKey);
+    if (existing) {
+      const ok = confirm(
+        `Квартира уже занята на имя: ${existing.name}.\nОсвободить?`,
+      );
+      if (ok) {
+        releaseOccupied(blockId, realFloor, posKey);
+        setSlide((s) => s);
+      }
+      return;
     }
-    return;
+
+    setAssignCtx({ blockId, floor: realFloor, posKey });
+    setFullName("");
+    setAssignOpen(true);
   }
 
-  setAssignCtx({ blockId, floor: realFloor, posKey });
-  setFullName("");
-  setAssignOpen(true);
-}
+  function confirmAssign() {
+    if (!assignCtx) return;
+    if (!fullName.trim()) return;
 
-function confirmAssign() {
-  if (!assignCtx) return;
-  if (!fullName.trim()) return;
+    setOccupied(
+      assignCtx.blockId,
+      assignCtx.floor,
+      assignCtx.posKey,
+      fullName.trim(),
+    );
 
-  setOccupied(assignCtx.blockId, assignCtx.floor, assignCtx.posKey, fullName.trim());
-
-  setAssignOpen(false);
-  setAssignCtx(null);
-  setSlide((s) => s);
-}
-
+    setAssignOpen(false);
+    setAssignCtx(null);
+    setSlide((s) => s);
+  }
 
   function replaceSchemes() {
     setSchemeOpen(true);
@@ -286,7 +294,7 @@ function confirmAssign() {
         onReplaceSchemes={replaceSchemes}
       />
 
-      {presentationMode &&
+      {presentationMode ? (
         (() => {
           const p = presentationSlides[presentationIndex];
 
@@ -315,43 +323,43 @@ function confirmAssign() {
               />
             </PresentationOverlay>
           );
-        })()}
+        })()
+      ) : (
+        <Carousel
+          index={slide}
+          count={slides.length}
+          onPrev={prev}
+          onNext={next}
+        >
+          {current.kind === "master" && (
+            <SlideFrame title="Слайд 0: Схема 11 блоков">
+              <SvgPlan
+                svgText={masterSvgText}
+                occupiedIds={[]}
+                operatorEnabled={false}
+                onApartmentClick={() => {}}
+              />
+            </SlideFrame>
+          )}
 
-      <Carousel index={slide} count={slides.length} onPrev={prev} onNext={next}>
-        {current.kind === "master" && (
-          <SlideFrame title="Слайд 0: Схема 11 блоков">
-            <SvgPlan
-              svgText={masterSvgText}
-              occupiedIds={[]}
-              operatorEnabled={false}
-              onApartmentClick={() => {}}
-            />
-          </SlideFrame>
-        )}
-
-        {current.kind === "block" && (
-          <SlideFrame title={`Слайд: ${current.title}`}>
-            {(() => {
-              const floor = 1;
-
-              return (
-                <div className="floorCard">
-                  <FloorPlan
-                    blockId={current.blockId}
-                    floor={floor}
-                    schemesOverride={schemesOverride}
-                    occupiedIds={collectOccupiedIdsByBlock(current.blockId)}
-                    operatorEnabled={operatorEnabled}
-                    onApartmentClick={(posKey) =>
-                      requestAssign(current.blockId, floor, posKey)
-                    }
-                  />
-                </div>
-              );
-            })()}
-          </SlideFrame>
-        )}
-      </Carousel>
+          {current.kind === "block" && (
+            <SlideFrame title={`Слайд: ${current.title}`}>
+              <div className="floorCard">
+                <FloorPlan
+                  blockId={current.blockId}
+                  floor={1}
+                  schemesOverride={schemesOverride}
+                  occupiedIds={collectOccupiedIdsByBlock(current.blockId)}
+                  operatorEnabled={operatorEnabled}
+                  onApartmentClick={(posKey) =>
+                    requestAssign(current.blockId, 1, posKey)
+                  }
+                />
+              </div>
+            </SlideFrame>
+          )}
+        </Carousel>
+      )}
 
       <Modal
         open={assignOpen}
@@ -370,8 +378,7 @@ function confirmAssign() {
 
         {assignCtx && (
           <div className="hint">
-            Блок <b>{assignCtx.blockId}</b>, этаж <b>{assignCtx.floor}</b>,
-            позиция <b>{assignCtx.posKey}</b>
+            Блок <b>{assignCtx.blockId}</b>, этаж <b>{assignCtx.floor}</b>
           </div>
         )}
 
@@ -403,7 +410,6 @@ function confirmAssign() {
     </div>
   );
 }
-
 
 function PresentationOverlay({ title, children }) {
   return (

@@ -70,19 +70,16 @@ export default function SvgPlan({
     svg.removeAttribute("width");
     svg.removeAttribute("height");
 
-    // если viewBox нет — задаём из исходных размеров (иначе масштабирование ломается)
     if (!svg.getAttribute("viewBox")) {
       svg.setAttribute("viewBox", "0 0 4096 2383");
     }
 
-    // ключевые стили "вписать в контейнер"
+    svg.setAttribute("preserveAspectRatio", "xMidYMid meet");
+
     svg.style.width = "100%";
     svg.style.height = "100%";
-    svg.style.maxWidth = "100%";
-    svg.style.maxHeight = "100%";
     svg.style.display = "block";
-    svg.style.objectFit = "contain"; // вписывать целиком
-    svg.style.overflow = "visible";
+    svg.style.overflow = "hidden"; // вместо visible
     svg.style.touchAction = "manipulation";
   }, [svgText]);
 
@@ -105,7 +102,8 @@ export default function SvgPlan({
   useEffect(() => {
     const root = ref.current;
     if (!root) return;
-    root.querySelectorAll('[id^="apt_"], [id^="apt_f"]')
+    root
+      .querySelectorAll('[id^="apt_"], [id^="apt_f"]')
       .forEach((el) => (el.style.pointerEvents = "all"));
   }, [svgText]);
 
