@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3249.31 2252.4">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" data-name="Layer 2" viewBox="0 0 3249.31 2252.4">
   <defs>
     <style>
       .cls-1 {
@@ -62,117 +62,117 @@
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
     <g>
-      <path class="cls-3" d="M142.84,283.09h3101.3c2.03,0,3.67,1.65,3.67,3.67v1964.14H134.53V291.4c0-4.58,3.72-8.3,8.3-8.3Z"/>
+      <path class="cls-3" d="M142.84,283.09h3101.3c2.03,0,3.67,1.65,3.67,3.67v1964.14H134.53V291.4c0-4.58,3.72-8.3,8.3-8.3Z" />
       <text class="cls-6" transform="translate(0 403.46)"><tspan x="0" y="0">15</tspan></text>
-      <rect id="uuid-9a287430-8996-4b25-8aa9-5d11367bdaa0" class="cls-1" x="151.63" y="317.1" width="500" height="117.3"/>
-      <rect id="uuid-8112acbd-dc25-471d-b720-7f75a8fe9d80" class="cls-1" x="665.63" y="317.1" width="500" height="117.3"/>
-      <rect id="uuid-2542721c-2bbb-41c8-960c-d9ccf44aaf28" class="cls-1" x="1179.63" y="317.1" width="500" height="117.3"/>
-      <rect id="uuid-3ecf4c8d-bdd9-43d2-81ec-9c708b6e6f6d" class="cls-1" x="1691.17" y="317.1" width="500" height="117.3"/>
-      <rect id="uuid-137042f4-b9db-42ff-9de5-809296708cac" class="cls-1" x="2207.63" y="317.1" width="500" height="117.3"/>
+      <rect id="apt_b02_f15_a01_kv085" class="cls-1" x="151.63" y="317.1" width="500" height="117.3" data-name="apt b02 f15 a1 kv85" />
+      <rect id="apt_b02_f15_a02_kv086" class="cls-1" x="665.63" y="317.1" width="500" height="117.3" data-name="apt b02 f15 a2 kv86" />
+      <rect id="apt_b02_f15_a03_kv087" class="cls-1" x="1179.63" y="317.1" width="500" height="117.3" data-name="apt b02 f15 a3 kv87" />
+      <rect id="apt_b02_f15_a04_kv088" class="cls-1" x="1691.17" y="317.1" width="500" height="117.3" data-name="apt b02 f15 a4 kv88" />
+      <rect id="apt_b02_f15_a05_kv089" class="cls-1" x="2207.63" y="317.1" width="500" height="117.3" data-name="apt b02 f15 a5 kv89" />
       <text class="cls-6" transform="translate(0 530.86)"><tspan x="0" y="0">14</tspan></text>
-      <rect id="uuid-939028e7-9d8a-4fe5-a0bf-ff7401ea9445" class="cls-1" x="151.63" y="444.4" width="500" height="117.3"/>
-      <rect id="uuid-dea275cf-a7c4-44c3-94d4-9f9148df755d" class="cls-1" x="665.63" y="444.4" width="500" height="117.3"/>
-      <rect id="uuid-5d0a84a1-5664-4ebc-9778-5e5c67ed2f60" class="cls-1" x="1179.63" y="444.4" width="500" height="117.3"/>
-      <rect id="uuid-9a33c41a-1152-4555-b5b0-dbd7139582b8" class="cls-1" x="1691.17" y="444.4" width="500" height="117.3"/>
-      <rect id="uuid-834ff049-fc1b-4b32-9d12-1583ba9e8fcd" class="cls-1" x="2207.63" y="444.4" width="500" height="117.3"/>
+      <rect id="apt_b02_f14_a01_kv079" class="cls-1" x="151.63" y="444.4" width="500" height="117.3" data-name="apt b02 f14 a1 kv79" />
+      <rect id="apt_b02_f14_a02_kv080" class="cls-1" x="665.63" y="444.4" width="500" height="117.3" data-name="apt b02 f14 a2 kv80" />
+      <rect id="apt_b02_f14_a03_kv081" class="cls-1" x="1179.63" y="444.4" width="500" height="117.3" data-name="apt b02 f14 a3 kv81" />
+      <rect id="apt_b02_f14_a04_kv082" class="cls-1" x="1691.17" y="444.4" width="500" height="117.3" data-name="apt b02 f14 a4 kv82" />
+      <rect id="apt_b02_f14_a05_kv083" class="cls-1" x="2207.63" y="444.4" width="500" height="117.3" data-name="apt b02 f14 a5 kv83" />
       <text class="cls-6" transform="translate(0 658.16)"><tspan x="0" y="0">13</tspan></text>
-      <rect id="uuid-c2b1028b-5591-4551-8a01-1a525b67e4bd" class="cls-1" x="151.63" y="571.7" width="500" height="117.3"/>
-      <rect id="uuid-d35b7239-0fe2-4eae-8fd8-22c64d2418b2" class="cls-1" x="665.63" y="571.7" width="500" height="117.3"/>
-      <rect id="uuid-2262d8a1-afd4-4a99-97f2-9220bdf22bdd" class="cls-1" x="1179.63" y="571.7" width="500" height="117.3"/>
-      <rect id="uuid-d480a808-672e-45ab-80cf-8a116c2c47a0" class="cls-1" x="1691.17" y="571.7" width="500" height="117.3"/>
-      <rect id="uuid-54e321d8-ae24-4fa3-b728-2b5480121118" class="cls-1" x="2207.63" y="571.7" width="500" height="117.3"/>
+      <rect id="apt_b02_f13_a01_kv073" class="cls-1" x="151.63" y="571.7" width="500" height="117.3" data-name="apt b02 f13 a1 kv73" />
+      <rect id="apt_b02_f13_a02_kv074" class="cls-1" x="665.63" y="571.7" width="500" height="117.3" data-name="apt b02 f13 a2 kv74" />
+      <rect id="apt_b02_f13_a03_kv075" class="cls-1" x="1179.63" y="571.7" width="500" height="117.3" data-name="apt b02 f13 a3 kv75" />
+      <rect id="apt_b02_f13_a04_kv076" class="cls-1" x="1691.17" y="571.7" width="500" height="117.3" data-name="apt b02 f13 a4 kv76" />
+      <rect id="apt_b02_f13_a05_kv077" class="cls-1" x="2207.63" y="571.7" width="500" height="117.3" data-name="apt b02 f13 a5 kv77" />
       <text class="cls-6" transform="translate(0 785.46)"><tspan x="0" y="0">12</tspan></text>
-      <rect id="uuid-49364898-d2a2-4d55-b6cb-e2c477920100" class="cls-1" x="151.63" y="699.1" width="500" height="117.3"/>
-      <rect id="uuid-c69195bf-9d85-4e4f-8228-06dce7072544" class="cls-1" x="665.63" y="699.1" width="500" height="117.3"/>
-      <rect id="uuid-fa06041a-f39b-49e4-a27b-8ff227458657" class="cls-1" x="1179.63" y="699.1" width="500" height="117.3"/>
-      <rect id="uuid-f04376e7-8196-47a1-97c6-e2ccd99597db" class="cls-1" x="1691.17" y="699.1" width="500" height="117.3"/>
-      <rect id="uuid-3ad55ea2-cd7b-405d-aa83-f1eabfc02b44" class="cls-1" x="2207.63" y="699.1" width="500" height="117.3"/>
+      <rect id="apt_b02_f12_a01_kv067" class="cls-1" x="151.63" y="699.1" width="500" height="117.3" data-name="apt b02 f12 a1 kv67" />
+      <rect id="apt_b02_f12_a02_kv068" class="cls-1" x="665.63" y="699.1" width="500" height="117.3" data-name="apt b02 f12 a2 kv68" />
+      <rect id="apt_b02_f12_a03_kv069" class="cls-1" x="1179.63" y="699.1" width="500" height="117.3" data-name="apt b02 f12 a3 kv69" />
+      <rect id="apt_b02_f12_a04_kv070" class="cls-1" x="1691.17" y="699.1" width="500" height="117.3" data-name="apt b02 f12 a4 kv70" />
+      <rect id="apt_b02_f12_a05_kv071" class="cls-1" x="2207.63" y="699.1" width="500" height="117.3" data-name="apt b02 f12 a5 kv71" />
       <text class="cls-6" transform="translate(1 912.86)"><tspan class="cls-7" x="0" y="0">1</tspan><tspan x="27.55" y="0">1</tspan></text>
-      <rect id="uuid-fa837715-8ee4-45d9-9bf2-e2ec3da83828" class="cls-1" x="151.63" y="826.4" width="500" height="117.3"/>
-      <rect id="uuid-2bcfbf8e-bac9-4529-bc8f-652ec53eeb04" class="cls-1" x="665.63" y="826.4" width="500" height="117.3"/>
-      <rect id="uuid-6619637b-b2e2-45b4-ad8b-2079ba743302" class="cls-1" x="1179.63" y="826.4" width="500" height="117.3"/>
-      <rect id="uuid-1b27c889-0526-4c81-875b-e406c136a02d" class="cls-1" x="1691.17" y="826.4" width="500" height="117.3"/>
-      <rect id="uuid-fcd61b56-5499-42e0-a0ee-2167466cf506" class="cls-1" x="2207.63" y="826.4" width="500" height="117.3"/>
+      <rect id="apt_b02_f11_a01_kv061" class="cls-1" x="151.63" y="826.4" width="500" height="117.3" data-name="apt b02 f11 a1 kv61" />
+      <rect id="apt_b02_f11_a02_kv062" class="cls-1" x="665.63" y="826.4" width="500" height="117.3" data-name="apt b02 f11 a2 kv62" />
+      <rect id="apt_b02_f11_a03_kv063" class="cls-1" x="1179.63" y="826.4" width="500" height="117.3" data-name="apt b02 f11 a3 kv63" />
+      <rect id="apt_b02_f11_a04_kv064" class="cls-1" x="1691.17" y="826.4" width="500" height="117.3" data-name="apt b02 f11 a4 kv64" />
+      <rect id="apt_b02_f11_a05_kv065" class="cls-1" x="2207.63" y="826.4" width="500" height="117.3" data-name="apt b02 f11 a5 kv65" />
       <text class="cls-6" transform="translate(0 1040.16)"><tspan x="0" y="0">10</tspan></text>
-      <rect id="uuid-ac4e5582-4d71-44f2-86e8-8ee0063d3464" class="cls-1" x="151.63" y="953.7" width="500" height="117.3"/>
-      <rect id="uuid-987499a0-0c63-454b-a2a6-e291944669b0" class="cls-1" x="665.63" y="953.7" width="500" height="117.3"/>
-      <rect id="uuid-5c38a45b-8437-4895-b057-457c31ce371f" class="cls-1" x="1179.63" y="953.7" width="500" height="117.3"/>
-      <rect id="uuid-f061123f-a74d-4853-8d18-339f6ce74e8e" class="cls-1" x="1691.17" y="953.7" width="500" height="117.3"/>
-      <rect id="uuid-58e2795e-f805-48fe-acaa-f9eb2f67a18a" class="cls-1" x="1691.17" y="1081.1" width="500" height="117.3"/>
-      <rect id="uuid-1671d8a5-433f-4619-9d6f-aca34c2b088f" class="cls-1" x="2207.63" y="953.7" width="500" height="117.3"/>
+      <rect id="apt_b02_f10_a01_kv055" class="cls-1" x="151.63" y="953.7" width="500" height="117.3" data-name="apt b02 f10 a1 kv55" />
+      <rect id="apt_b02_f10_a02_kv056" class="cls-1" x="665.63" y="953.7" width="500" height="117.3" data-name="apt b02 f10 a2 kv56" />
+      <rect id="apt_b02_f10_a03_kv057" class="cls-1" x="1179.63" y="953.7" width="500" height="117.3" data-name="apt b02 f10 a3 kv57" />
+      <rect id="apt_b02_f10_a04_kv058" class="cls-1" x="1691.17" y="953.7" width="500" height="117.3" data-name="apt b02 f10 a4 kv58" />
+      <rect id="apt_b02_f09_a04_kv052" class="cls-1" x="1691.17" y="1081.1" width="500" height="117.3" data-name="apt b02 f9 a4 kv52" />
+      <rect id="apt_b02_f10_a05_kv059" class="cls-1" x="2207.63" y="953.7" width="500" height="117.3" data-name="apt b02 f10 a5 kv59" />
       <text class="cls-6" transform="translate(10 1167.46)"><tspan x="0" y="0">9</tspan></text>
-      <rect id="uuid-c10d6870-b4b6-480d-9428-5b5e530abb1b" class="cls-1" x="151.63" y="1081.1" width="500" height="117.3"/>
-      <rect id="uuid-d6eeeaa9-46ff-4fa8-a08c-f9730d16731e" class="cls-1" x="665.63" y="1081.1" width="500" height="117.3"/>
-      <rect id="uuid-f3261c7c-4476-41b4-9e46-f814634c82ca" class="cls-1" x="1179.63" y="1081.1" width="500" height="117.3"/>
-      <rect id="uuid-a093b117-3ed9-47da-9755-fe7e6aa4d522" class="cls-1" x="2207.63" y="1081.1" width="500" height="117.3"/>
+      <rect id="apt_b02_f09_a01_kv049" class="cls-1" x="151.63" y="1081.1" width="500" height="117.3" data-name="apt b02 f9 a1 kv49" />
+      <rect id="apt_b02_f09_a02_kv050" class="cls-1" x="665.63" y="1081.1" width="500" height="117.3" data-name="apt b02 f9 a2 kv50" />
+      <rect id="apt_b02_f09_a03_kv051" class="cls-1" x="1179.63" y="1081.1" width="500" height="117.3" data-name="apt b02 f9 a3 kv51" />
+      <rect id="apt_b02_f09_a05_kv053" class="cls-1" x="2207.63" y="1081.1" width="500" height="117.3" data-name="apt b02 f9 a5 kv53" />
       <text class="cls-6" transform="translate(10 1294.86)"><tspan x="0" y="0">8</tspan></text>
-      <rect id="uuid-7092a8cb-ecb5-4e15-ad59-10eb82cd60f4" class="cls-1" x="151.63" y="1208.4" width="500" height="117.3"/>
-      <rect id="uuid-a421ec7b-eb2e-426b-b807-cf9a94965001" class="cls-1" x="665.63" y="1208.4" width="500" height="117.3"/>
-      <rect id="uuid-565dddd8-2e15-4d00-a789-2ff77bd1083f" class="cls-1" x="1179.63" y="1208.4" width="500" height="117.3"/>
-      <rect id="uuid-8317d394-a239-4231-8637-8aa58247736e" class="cls-1" x="1179.63" y="1335.7" width="500" height="117.3"/>
-      <rect id="uuid-9b0b8fd2-5a1f-4448-9724-dcc59de808ed" class="cls-1" x="1691.17" y="1208.4" width="500" height="117.3"/>
-      <rect id="uuid-54454f6f-343b-47b0-bad6-35a8b245c9ee" class="cls-1" x="2207.63" y="1208.4" width="500" height="117.3"/>
+      <rect id="apt_b02_f08_a01_kv043" class="cls-1" x="151.63" y="1208.4" width="500" height="117.3" data-name="apt b02 f8 a1 kv43" />
+      <rect id="apt_b02_f08_a02_kv044" class="cls-1" x="665.63" y="1208.4" width="500" height="117.3" data-name="apt b02 f8 a2 kv44" />
+      <rect id="apt_b02_f08_a03_kv045" class="cls-1" x="1179.63" y="1208.4" width="500" height="117.3" data-name="apt b02 f8 a3 kv45" />
+      <rect id="apt_b02_f07_a03_kv039" class="cls-1" x="1179.63" y="1335.7" width="500" height="117.3" data-name="apt b02 f7 a3 kv39" />
+      <rect id="apt_b02_f08_a04_kv046" class="cls-1" x="1691.17" y="1208.4" width="500" height="117.3" data-name="apt b02 f8 a4 kv46" />
+      <rect id="apt_b02_f08_a05_kv047" class="cls-1" x="2207.63" y="1208.4" width="500" height="117.3" data-name="apt b02 f8 a5 kv47" />
       <text class="cls-6" transform="translate(10 1422.16)"><tspan x="0" y="0">7</tspan></text>
-      <rect id="uuid-fe3e7501-cb52-4cf5-bd8c-f641aadaae9f" class="cls-1" x="151.63" y="1335.7" width="500" height="117.3"/>
-      <rect id="uuid-6adddf69-85d8-4304-8062-313f715bc873" class="cls-1" x="151.63" y="1463.1" width="500" height="117.3"/>
-      <rect id="uuid-94d00568-f387-40b4-a503-e5be7d2cae63" class="cls-1" x="665.63" y="1335.7" width="500" height="117.3"/>
-      <rect id="uuid-8c9cb7a7-1b3c-4af6-be79-983abe45108f" class="cls-1" x="1691.17" y="1335.7" width="500" height="117.3"/>
-      <rect id="uuid-07013cb1-a95d-4548-83e9-f3cb7f27b267" class="cls-1" x="2207.63" y="1335.7" width="500" height="117.3"/>
+      <rect id="apt_b02_f07_a01_kv037" class="cls-1" x="151.63" y="1335.7" width="500" height="117.3" data-name="apt b02 f7 a1 kv37" />
+      <rect id="apt_b02_f06_a01_kv031" class="cls-1" x="151.63" y="1463.1" width="500" height="117.3" data-name="apt b02 f6 a1 kv31" />
+      <rect id="apt_b02_f07_a02_kv038" class="cls-1" x="665.63" y="1335.7" width="500" height="117.3" data-name="apt b02 f7 a2 kv38" />
+      <rect id="apt_b02_f07_a04_kv040" class="cls-1" x="1691.17" y="1335.7" width="500" height="117.3" data-name="apt b02 f7 a4 kv40" />
+      <rect id="apt_b02_f07_a05_kv041" class="cls-1" x="2207.63" y="1335.7" width="500" height="117.3" data-name="apt b02 f7 a5 kv41" />
       <text class="cls-6" transform="translate(10 1549.46)"><tspan x="0" y="0">6</tspan></text>
-      <rect id="uuid-34a494d4-689b-4c43-89de-2657eb74022c" class="cls-1" x="665.63" y="1463.1" width="500" height="117.3"/>
-      <rect id="uuid-5ef567b2-55fd-4799-823e-a199a3af381f" class="cls-1" x="1179.63" y="1463.1" width="500" height="117.3"/>
-      <rect id="uuid-2fe8d29c-ccdb-4315-9801-62164a4f8360" class="cls-1" x="1691.17" y="1463.1" width="500" height="117.3"/>
-      <rect id="uuid-f057477c-99a9-47cb-a68a-ec284a7ca11f" class="cls-1" x="2207.63" y="1463.1" width="500" height="117.3"/>
+      <rect id="apt_b02_f06_a02_kv032" class="cls-1" x="665.63" y="1463.1" width="500" height="117.3" data-name="apt b02 f6 a2 kv32" />
+      <rect id="apt_b02_f06_a03_kv033" class="cls-1" x="1179.63" y="1463.1" width="500" height="117.3" data-name="apt b02 f6 a3 kv33" />
+      <rect id="apt_b02_f06_a04_kv034" class="cls-1" x="1691.17" y="1463.1" width="500" height="117.3" data-name="apt b02 f6 a4 kv34" />
+      <rect id="apt_b02_f06_a05_kv035" class="cls-1" x="2207.63" y="1463.1" width="500" height="117.3" data-name="apt b02 f6 a5 kv35" />
       <text class="cls-6" transform="translate(10 1676.86)"><tspan x="0" y="0">5</tspan></text>
-      <rect id="uuid-90647bca-5685-48cc-bfc5-be266541dd06" class="cls-1" x="151.63" y="1590.4" width="500" height="117.3"/>
-      <rect id="uuid-b809bce8-e4ab-4b59-80cd-27e2f1d8f83f" class="cls-1" x="665.63" y="1590.4" width="500" height="117.3"/>
-      <rect id="uuid-f1ae5180-94e2-403a-bf8d-4f2e6ca32de8" class="cls-1" x="1179.63" y="1590.4" width="500" height="117.3"/>
-      <rect id="uuid-d1a420eb-95da-4f7f-b1a4-b1415f883916" class="cls-1" x="1691.17" y="1590.4" width="500" height="117.3"/>
-      <rect id="uuid-4ebd98a1-b266-4051-8e13-ec8247b6bbdf" class="cls-1" x="2207.63" y="1590.4" width="500" height="117.3"/>
+      <rect id="apt_b02_f05_a01_kv025" class="cls-1" x="151.63" y="1590.4" width="500" height="117.3" data-name="apt b02 f5 a1 kv25" />
+      <rect id="apt_b02_f05_a02_kv026" class="cls-1" x="665.63" y="1590.4" width="500" height="117.3" data-name="apt b02 f5 a2 kv26" />
+      <rect id="apt_b02_f05_a03_kv027" class="cls-1" x="1179.63" y="1590.4" width="500" height="117.3" data-name="apt b02 f5 a3 kv27" />
+      <rect id="apt_b02_f05_a04_kv028" class="cls-1" x="1691.17" y="1590.4" width="500" height="117.3" data-name="apt b02 f5 a4 kv28" />
+      <rect id="apt_b02_f05_a05_kv029" class="cls-1" x="2207.63" y="1590.4" width="500" height="117.3" data-name="apt b02 f5 a5 kv29" />
       <text class="cls-6" transform="translate(10 1804.16)"><tspan x="0" y="0">4</tspan></text>
-      <rect id="uuid-aa443a13-9714-4571-8c0e-dae7cc161ff9" class="cls-1" x="151.63" y="1717.7" width="500" height="117.3"/>
-      <rect id="uuid-7538a151-c4f0-484f-8273-e6501dcaf741" class="cls-1" x="665.63" y="1717.7" width="500" height="117.3"/>
-      <rect id="uuid-c6389b82-5968-4aae-a18f-eb5097b3ab14" class="cls-1" x="1179.63" y="1717.7" width="500" height="117.3"/>
-      <rect id="uuid-c5261797-f0ca-4b42-8741-93b1d034b8c3" class="cls-1" x="1691.17" y="1717.7" width="500" height="117.3"/>
-      <rect id="uuid-15ec253b-5519-4c1a-9a33-417a9b3c1344" class="cls-1" x="2207.63" y="1717.7" width="500" height="117.3"/>
+      <rect id="apt_b02_f04_a01_kv019" class="cls-1" x="151.63" y="1717.7" width="500" height="117.3" data-name="apt b02 f4 a1 kv19" />
+      <rect id="apt_b02_f04_a02_kv020" class="cls-1" x="665.63" y="1717.7" width="500" height="117.3" data-name="apt b02 f4 a2 kv20" />
+      <rect id="apt_b02_f04_a03_kv021" class="cls-1" x="1179.63" y="1717.7" width="500" height="117.3" data-name="apt b02 f4 a3 kv21" />
+      <rect id="apt_b02_f04_a04_kv022" class="cls-1" x="1691.17" y="1717.7" width="500" height="117.3" data-name="apt b02 f4 a4 kv22" />
+      <rect id="apt_b02_f04_a05_kv023" class="cls-1" x="2207.63" y="1717.7" width="500" height="117.3" data-name="apt b02 f4 a5 kv23" />
       <text class="cls-6" transform="translate(10 1931.46)"><tspan x="0" y="0">3</tspan></text>
-      <rect id="uuid-a80e2842-88b7-4a24-8017-ce92fe4b2557" class="cls-1" x="151.63" y="1845.1" width="500" height="117.3"/>
-      <rect id="uuid-6f374773-37d0-4996-b694-a8e8ec13d675" class="cls-1" x="665.63" y="1845.1" width="500" height="117.3"/>
-      <rect id="uuid-172f811e-ae45-4669-8fc5-dbc5a22aad17" class="cls-1" x="665.63" y="1972.4" width="500" height="117.3"/>
-      <rect id="uuid-3ee50e43-6bf7-4f97-9def-1a8b263a16e1" class="cls-1" x="1179.63" y="1845.1" width="500" height="117.3"/>
-      <rect id="uuid-52c474cd-215a-4209-b860-8e2cdbeb6a6c" class="cls-1" x="1179.63" y="1972.4" width="500" height="117.3"/>
-      <rect id="uuid-86a4c818-a11f-459d-a005-ea4dfa2ad1ed" class="cls-1" x="1691.17" y="1845.1" width="500" height="117.3"/>
-      <rect id="uuid-3f1e727c-af6f-4b68-af1f-c02a2369cbe0" class="cls-1" x="2207.63" y="1845.1" width="500" height="117.3"/>
+      <rect id="apt_b02_f03_a01_kv013" class="cls-1" x="151.63" y="1845.1" width="500" height="117.3" data-name="apt b02 f3 a1 kv13" />
+      <rect id="apt_b02_f03_a02_kv014" class="cls-1" x="665.63" y="1845.1" width="500" height="117.3" data-name="apt b02 f3 a2 kv14" />
+      <rect id="apt_b02_f02_a02_kv008" class="cls-1" x="665.63" y="1972.4" width="500" height="117.3" data-name="apt b02 f2 a2 kv8" />
+      <rect id="apt_b02_f03_a03_kv015" class="cls-1" x="1179.63" y="1845.1" width="500" height="117.3" data-name="apt b02 f3 a3 kv15" />
+      <rect id="apt_b02_f02_a03_kv009" class="cls-1" x="1179.63" y="1972.4" width="500" height="117.3" data-name="apt b02 f2 a3 kv9" />
+      <rect id="apt_b02_f03_a04_kv016" class="cls-1" x="1691.17" y="1845.1" width="500" height="117.3" data-name="apt b02 f3 a4 kv16" />
+      <rect id="apt_b02_f03_a05_kv017" class="cls-1" x="2207.63" y="1845.1" width="500" height="117.3" data-name="apt b02 f3 a5 kv17" />
       <text class="cls-6" transform="translate(10 2058.86)"><tspan x="0" y="0">2</tspan></text>
-      <rect id="uuid-0adad378-2f24-467c-a6e5-2d3f43df49eb" class="cls-1" x="151.63" y="1972.4" width="500" height="117.3"/>
-      <rect id="uuid-e2f9a654-4e68-4383-880f-226fafe20131" class="cls-1" x="1691.17" y="1972.4" width="500" height="117.3"/>
-      <rect id="uuid-d56afc98-f4e5-41ab-a7b4-ccfe82573f5f" class="cls-1" x="2207.63" y="1972.4" width="500" height="117.3"/>
+      <rect id="apt_b02_f02_a01_kv007" class="cls-1" x="151.63" y="1972.4" width="500" height="117.3" data-name="apt b02 f2 a1 kv7" />
+      <rect id="apt_b02_f02_a04_kv010" class="cls-1" x="1691.17" y="1972.4" width="500" height="117.3" data-name="apt b02 f2 a4 kv10" />
+      <rect id="apt_b02_f02_a05_kv011" class="cls-1" x="2207.63" y="1972.4" width="500" height="117.3" data-name="apt b02 f2 a5 kv11" />
       <text class="cls-6" transform="translate(10 2186.16)"><tspan x="0" y="0">1</tspan></text>
-      <rect id="uuid-13dd8507-5e1d-4e86-9ae8-9f19479c955b" class="cls-1" x="151.63" y="2099.7" width="500" height="117.3"/>
+      <rect id="apt_b02_f01_a01_kv001" class="cls-1" x="151.63" y="2099.7" width="500" height="117.3" data-name="apt b02 f1 a1 kv1" />
       <text class="cls-5" transform="translate(179.99 2175.55)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(1кв)</tspan></text>
-      <rect id="uuid-5cdec80a-42f4-482c-bffb-d625209ac779" class="cls-1" x="665.63" y="2099.7" width="500" height="117.3"/>
+      <rect id="apt_b02_f01_a02_kv002" class="cls-1" x="665.63" y="2099.7" width="500" height="117.3" data-name="apt b02 f1 a2 kv2" />
       <text class="cls-5" transform="translate(691.88 2174.6)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(2кв)</tspan></text>
-      <rect id="uuid-28afb647-3076-4ac7-9671-f82e02ded4bd" class="cls-1" x="1179.63" y="2099.7" width="500" height="117.3"/>
+      <rect id="apt_b02_f01_a03_kv003" class="cls-1" x="1179.63" y="2099.7" width="500" height="117.3" data-name="apt b02 f1 a3 kv3" />
       <text class="cls-5" transform="translate(1192.83 2174.6)"><tspan x="0" y="0">1 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(3кв)</tspan></text>
-      <rect id="uuid-df4d8e62-9da5-4bf9-8037-9e9bf650d9f8" class="cls-1" x="1691.17" y="2099.7" width="500" height="117.3"/>
+      <rect id="apt_b02_f01_a04_kv004" class="cls-1" x="1691.17" y="2099.7" width="500" height="117.3" data-name="apt b02 f1 a4 kv4" />
       <text class="cls-5" transform="translate(1717.24 2174.6)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(4кв)</tspan></text>
-      <rect id="uuid-ffdd848c-1805-4ef7-9d46-394941a2e0f7" class="cls-1" x="2207.63" y="2099.7" width="500" height="117.3"/>
+      <rect id="apt_b02_f01_a05_kv005" class="cls-1" x="2207.63" y="2099.7" width="500" height="117.3" data-name="apt b02 f1 a5 kv5" />
       <text class="cls-5" transform="translate(2234.09 2168.9)"><tspan x="0" y="0">3 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(5кв)</tspan></text>
-      <rect id="uuid-84950aa3-7f33-4272-8b9c-57a170310534" class="cls-1" x="2721.63" y="317.1" width="500" height="117.3"/>
-      <rect id="uuid-280f9bfc-eaac-4633-8b82-92b649a5c401" class="cls-1" x="2721.63" y="444.4" width="500" height="117.3"/>
-      <rect id="uuid-c34b66e0-07d5-4122-bc5c-b713a117ce1d" class="cls-1" x="2721.63" y="571.7" width="500" height="117.3"/>
-      <rect id="uuid-dda83ef3-9f95-47f4-bda3-5ab9aa5c2907" class="cls-1" x="2721.63" y="699.1" width="500" height="117.3"/>
-      <rect id="uuid-c98c175c-2911-453b-9f37-98ea076aac03" class="cls-1" x="2721.63" y="826.4" width="500" height="117.3"/>
-      <rect id="uuid-43b43978-55ff-42c6-b99a-dbf7ca6f49a7" class="cls-1" x="2721.63" y="953.7" width="500" height="117.3"/>
-      <rect id="uuid-cb5678c8-6468-4aa0-b092-d43de5e3d8b9" class="cls-1" x="2721.63" y="1081.1" width="500" height="117.3"/>
-      <rect id="uuid-e1cfb9d5-29bd-4d42-95ce-cbee8155e8fd" class="cls-1" x="2721.63" y="1208.4" width="500" height="117.3"/>
-      <rect id="uuid-efbb692d-a2b3-4e34-8c09-d19008110757" class="cls-1" x="2721.63" y="1335.7" width="500" height="117.3"/>
-      <rect id="uuid-da76203f-c4be-482a-8301-814cba487c14" class="cls-1" x="2721.63" y="1463.1" width="500" height="117.3"/>
-      <rect id="uuid-abe62285-c31d-415a-9faf-2cc9a4d38452" class="cls-1" x="2721.63" y="1590.4" width="500" height="117.3"/>
-      <rect id="uuid-d44c1026-9bfa-427f-8b38-5b71b0ae1342" class="cls-1" x="2721.63" y="1717.7" width="500" height="117.3"/>
-      <rect id="uuid-b4d9771b-f2f3-4bd2-b820-17499e6336a7" class="cls-1" x="2721.63" y="1845.1" width="500" height="117.3"/>
-      <rect id="uuid-dcbfd970-cbdc-41b4-a285-036ff1ebd410" class="cls-1" x="2721.63" y="1972.4" width="500" height="117.3"/>
-      <rect id="uuid-b8dc5ced-2faa-4aa9-8f38-c2742b250689" class="cls-1" x="2721.63" y="2099.7" width="500" height="117.3"/>
+      <rect id="apt_b02_f15_a06_kv090" class="cls-1" x="2721.63" y="317.1" width="500" height="117.3" data-name="apt b02 f15 a6 kv90" />
+      <rect id="apt_b02_f14_a06_kv084" class="cls-1" x="2721.63" y="444.4" width="500" height="117.3" data-name="apt b02 f14 a6 kv84" />
+      <rect id="apt_b02_f13_a06_kv078" class="cls-1" x="2721.63" y="571.7" width="500" height="117.3" data-name="apt b02 f13 a6 kv78" />
+      <rect id="apt_b02_f12_a06_kv072" class="cls-1" x="2721.63" y="699.1" width="500" height="117.3" data-name="apt b02 f12 a6 kv72" />
+      <rect id="apt_b02_f11_a06_kv066" class="cls-1" x="2721.63" y="826.4" width="500" height="117.3" data-name="apt b02 f11 a6 kv66" />
+      <rect id="apt_b02_f10_a06_kv060" class="cls-1" x="2721.63" y="953.7" width="500" height="117.3" data-name="apt b02 f10 a6 kv60" />
+      <rect id="apt_b02_f09_a06_kv054" class="cls-1" x="2721.63" y="1081.1" width="500" height="117.3" data-name="apt b02 f9 a6 kv54" />
+      <rect id="apt_b02_f08_a06_kv048" class="cls-1" x="2721.63" y="1208.4" width="500" height="117.3" data-name="apt b02 f8 a6 kv48" />
+      <rect id="apt_b02_f07_a06_kv042" class="cls-1" x="2721.63" y="1335.7" width="500" height="117.3" data-name="apt b02 f7 a6 kv42" />
+      <rect id="apt_b02_f06_a06_kv036" class="cls-1" x="2721.63" y="1463.1" width="500" height="117.3" data-name="apt b02 f6 a6 kv36" />
+      <rect id="apt_b02_f05_a06_kv030" class="cls-1" x="2721.63" y="1590.4" width="500" height="117.3" data-name="apt b02 f5 a6 kv30" />
+      <rect id="apt_b02_f04_a06_kv024" class="cls-1" x="2721.63" y="1717.7" width="500" height="117.3" data-name="apt b02 f4 a6 kv24" />
+      <rect id="apt_b02_f03_a06_kv018" class="cls-1" x="2721.63" y="1845.1" width="500" height="117.3" data-name="apt b02 f3 a6 kv18" />
+      <rect id="apt_b02_f02_a06_kv012" class="cls-1" x="2721.63" y="1972.4" width="500" height="117.3" data-name="apt b02 f2 a6 kv12" />
+      <rect id="apt_b02_f01_a06_kv006" class="cls-1" x="2721.63" y="2099.7" width="500" height="117.3" data-name="apt b02 f1 a6 kv6" />
       <text class="cls-5" transform="translate(2753.34 2167.47)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(6кв)</tspan></text>
       <text class="cls-5" transform="translate(179.99 2046.25)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(7кв)</tspan></text>
       <text class="cls-5" transform="translate(691.88 2046.25)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(8кв)</tspan></text>
@@ -258,7 +258,7 @@
       <text class="cls-5" transform="translate(1717.23 401.85)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(88кв)</tspan></text>
       <text class="cls-5" transform="translate(2230.34 401.85)"><tspan x="0" y="0">3 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(89кв)</tspan></text>
       <text class="cls-5" transform="translate(2749.04 400.43)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(90кв)</tspan></text>
-      <path class="cls-2" d="M3246.62,281.99H137.19L281.12,1.5h2822.75l143.4,279.43c.25.48-.1,1.06-.65,1.06Z"/>
+      <path class="cls-2" d="M3246.62,281.99H137.19L281.12,1.5h2822.75l143.4,279.43c.25.48-.1,1.06-.65,1.06Z" />
       <text class="cls-4" transform="translate(1347.37 204.54)"><tspan x="0" y="0">Б</tspan><tspan class="cls-9" x="143.75" y="0">л</tspan><tspan x="268.16" y="0">ок 2</tspan></text>
     </g>
   </g>
