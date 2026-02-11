@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3309.31 2223.62">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 45px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #00a651;
+        stroke-width: 2px;
+      }
+
+      .cls-5, .cls-6 {
+        stroke: #1a1a1a;
+      }
+
+      .cls-7 {
+        fill: #f7f8f8;
+        stroke: #131313;
+      }
+
+      .cls-7, .cls-6 {
+        stroke-width: 3px;
+      }
+
+      .cls-6 {
+        fill: #ae4e4e;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: #131313;
+        font-size: 55px;
+      }
+
+      .cls-8 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-4 {
+        font-size: 170px;
+      }
+
+      .cls-10 {
+        letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-7" x="127.72" y="248.32" width="3180.08" height="1973.8"/>
+      <path class="cls-6" d="M3304.71,248.32H134.54c-7.17,0-4.65-3.9-2.88-6.63L286.98,1.5h2864.29l155.92,241.11c1.52,2.36.07,5.71-2.48,5.71Z"/>
+      <rect id="apt_f01_a01" data-name="apt f01 a01" class="cls-5" x="190.78" y="285.27" width="500" height="117.3"/>
+      <rect id="apt_f01_a02" data-name="apt f01 a02" class="cls-5" x="704.78" y="285.27" width="500" height="117.3"/>
+      <rect id="apt_f01_a03" data-name="apt f01 a03" class="cls-5" x="1218.78" y="285.27" width="500" height="117.3"/>
+      <rect id="apt_f01_a04" data-name="apt f01 a04" class="cls-5" x="1732.78" y="285.27" width="500" height="117.3"/>
+      <rect id="apt_f01_a05" data-name="apt f01 a05" class="cls-5" x="2246.78" y="285.27" width="500" height="117.3"/>
+      <rect id="apt_f02_a01" data-name="apt f02 a01" class="cls-5" x="190.78" y="412.57" width="500" height="117.3"/>
+      <rect id="apt_f02_a02" data-name="apt f02 a02" class="cls-5" x="704.78" y="412.57" width="500" height="117.3"/>
+      <rect id="apt_f02_a03" data-name="apt f02 a03" class="cls-5" x="1218.78" y="412.57" width="500" height="117.3"/>
+      <rect id="apt_f02_a04" data-name="apt f02 a04" class="cls-5" x="1732.78" y="412.57" width="500" height="117.3"/>
+      <rect id="apt_f02_a05" data-name="apt f02 a05" class="cls-5" x="2246.78" y="412.57" width="500" height="117.3"/>
+      <rect id="apt_f03_a01" data-name="apt f03 a01" class="cls-5" x="190.78" y="539.87" width="500" height="117.3"/>
+      <rect id="apt_f03_a02" data-name="apt f03 a02" class="cls-5" x="704.78" y="539.87" width="500" height="117.3"/>
+      <rect id="apt_f03_a03" data-name="apt f03 a03" class="cls-5" x="1218.78" y="539.87" width="500" height="117.3"/>
+      <rect id="apt_f03_a04" data-name="apt f03 a04" class="cls-5" x="1732.78" y="539.87" width="500" height="117.3"/>
+      <rect id="apt_f03_a05" data-name="apt f03 a05" class="cls-5" x="2246.78" y="539.87" width="500" height="117.3"/>
+      <rect id="apt_f04_a01" data-name="apt f04 a01" class="cls-5" x="190.78" y="667.27" width="500" height="117.3"/>
+      <rect id="apt_f04_a02" data-name="apt f04 a02" class="cls-5" x="704.78" y="667.27" width="500" height="117.3"/>
+      <rect id="apt_f04_a03" data-name="apt f04 a03" class="cls-5" x="1218.78" y="667.27" width="500" height="117.3"/>
+      <rect id="apt_f04_a04" data-name="apt f04 a04" class="cls-5" x="1732.78" y="667.27" width="500" height="117.3"/>
+      <rect id="apt_f04_a05" data-name="apt f04 a05" class="cls-5" x="2246.78" y="667.27" width="500" height="117.3"/>
+      <rect id="apt_f05_a01" data-name="apt f05 a01" class="cls-5" x="190.78" y="794.57" width="500" height="117.3"/>
+      <rect id="apt_f05_a02" data-name="apt f05 a02" class="cls-5" x="704.78" y="794.57" width="500" height="117.3"/>
+      <rect id="apt_f05_a03" data-name="apt f05 a03" class="cls-5" x="1218.78" y="794.57" width="500" height="117.3"/>
+      <rect id="apt_f05_a04" data-name="apt f05 a04" class="cls-5" x="1732.78" y="794.57" width="500" height="117.3"/>
+      <rect id="apt_f05_a05" data-name="apt f05 a05" class="cls-5" x="2246.78" y="794.57" width="500" height="117.3"/>
+      <rect id="apt_f06_a01" data-name="apt f06 a01" class="cls-5" x="190.78" y="921.87" width="500" height="117.3"/>
+      <rect id="apt_f06_a02" data-name="apt f06 a02" class="cls-5" x="704.78" y="921.87" width="500" height="117.3"/>
+      <rect id="apt_f06_a03" data-name="apt f06 a03" class="cls-5" x="1218.78" y="921.87" width="500" height="117.3"/>
+      <rect id="apt_f06_a04" data-name="apt f06 a04" class="cls-5" x="1732.78" y="921.87" width="500" height="117.3"/>
+      <rect id="apt_f06_a041" data-name="apt f06 a041" class="cls-5" x="1732.78" y="1049.27" width="500" height="117.3"/>
+      <rect id="apt_f06_a05" data-name="apt f06 a05" class="cls-5" x="2246.78" y="921.87" width="500" height="117.3"/>
+      <rect id="apt_f07_a01" data-name="apt f07 a01" class="cls-5" x="190.78" y="1049.27" width="500" height="117.3"/>
+      <rect id="apt_f07_a02" data-name="apt f07 a02" class="cls-5" x="704.78" y="1049.27" width="500" height="117.3"/>
+      <rect id="apt_f07_a03" data-name="apt f07 a03" class="cls-5" x="1218.78" y="1049.27" width="500" height="117.3"/>
+      <rect id="apt_f07_a05" data-name="apt f07 a05" class="cls-5" x="2246.78" y="1049.27" width="500" height="117.3"/>
+      <rect id="apt_f08_a01" data-name="apt f08 a01" class="cls-5" x="190.78" y="1176.57" width="500" height="117.3"/>
+      <rect id="apt_f08_a02" data-name="apt f08 a02" class="cls-5" x="704.78" y="1176.57" width="500" height="117.3"/>
+      <rect id="apt_f08_a03" data-name="apt f08 a03" class="cls-5" x="1218.78" y="1176.57" width="500" height="117.3"/>
+      <rect id="apt_f08_a031" data-name="apt f08 a031" class="cls-5" x="1218.78" y="1303.87" width="500" height="117.3"/>
+      <rect id="apt_f08_a04" data-name="apt f08 a04" class="cls-5" x="1732.78" y="1176.57" width="500" height="117.3"/>
+      <rect id="apt_f08_a05" data-name="apt f08 a05" class="cls-5" x="2246.78" y="1176.57" width="500" height="117.3"/>
+      <rect id="apt_f09_a01" data-name="apt f09 a01" class="cls-5" x="190.78" y="1303.87" width="500" height="117.3"/>
+      <rect id="apt_f09_a011" data-name="apt f09 a011" class="cls-5" x="190.78" y="1431.27" width="500" height="117.3"/>
+      <rect id="apt_f09_a02" data-name="apt f09 a02" class="cls-5" x="704.78" y="1303.87" width="500" height="117.3"/>
+      <rect id="apt_f09_a04" data-name="apt f09 a04" class="cls-5" x="1732.78" y="1303.87" width="500" height="117.3"/>
+      <rect id="apt_f09_a05" data-name="apt f09 a05" class="cls-5" x="2246.78" y="1303.87" width="500" height="117.3"/>
+      <rect id="apt_f10_a02" data-name="apt f10 a02" class="cls-5" x="704.78" y="1431.27" width="500" height="117.3"/>
+      <rect id="apt_f10_a03" data-name="apt f10 a03" class="cls-5" x="1218.78" y="1431.27" width="500" height="117.3"/>
+      <rect id="apt_f10_a04" data-name="apt f10 a04" class="cls-5" x="1732.78" y="1431.27" width="500" height="117.3"/>
+      <rect id="apt_f10_a05" data-name="apt f10 a05" class="cls-5" x="2246.78" y="1431.27" width="500" height="117.3"/>
+      <rect id="apt_f11_a01" data-name="apt f11 a01" class="cls-5" x="190.78" y="1558.57" width="500" height="117.3"/>
+      <rect id="apt_f11_a02" data-name="apt f11 a02" class="cls-5" x="704.78" y="1558.57" width="500" height="117.3"/>
+      <rect id="apt_f11_a03" data-name="apt f11 a03" class="cls-5" x="1218.78" y="1558.57" width="500" height="117.3"/>
+      <rect id="apt_f11_a04" data-name="apt f11 a04" class="cls-5" x="1732.78" y="1558.57" width="500" height="117.3"/>
+      <rect id="apt_f11_a05" data-name="apt f11 a05" class="cls-5" x="2246.78" y="1558.57" width="500" height="117.3"/>
+      <rect id="apt_f12_a01" data-name="apt f12 a01" class="cls-5" x="190.78" y="1685.87" width="500" height="117.3"/>
+      <rect id="apt_f12_a02" data-name="apt f12 a02" class="cls-5" x="704.78" y="1685.87" width="500" height="117.3"/>
+      <rect id="apt_f12_a03" data-name="apt f12 a03" class="cls-5" x="1218.78" y="1685.87" width="500" height="117.3"/>
+      <rect id="apt_f12_a04" data-name="apt f12 a04" class="cls-5" x="1732.78" y="1685.87" width="500" height="117.3"/>
+      <rect id="apt_f12_a05" data-name="apt f12 a05" class="cls-5" x="2246.78" y="1685.87" width="500" height="117.3"/>
+      <rect id="apt_f13_a01" data-name="apt f13 a01" class="cls-5" x="190.78" y="1813.27" width="500" height="117.3"/>
+      <rect id="apt_f13_a02" data-name="apt f13 a02" class="cls-5" x="704.78" y="1813.27" width="500" height="117.3"/>
+      <rect id="apt_f13_a021" data-name="apt f13 a021" class="cls-5" x="704.78" y="1940.57" width="500" height="117.3"/>
+      <rect id="apt_f13_a03" data-name="apt f13 a03" class="cls-5" x="1218.78" y="1813.27" width="500" height="117.3"/>
+      <rect id="apt_f13_a031" data-name="apt f13 a031" class="cls-5" x="1218.78" y="1940.57" width="500" height="117.3"/>
+      <rect id="apt_f13_a04" data-name="apt f13 a04" class="cls-5" x="1732.78" y="1813.27" width="500" height="117.3"/>
+      <rect id="apt_f13_a05" data-name="apt f13 a05" class="cls-5" x="2246.78" y="1813.27" width="500" height="117.3"/>
+      <rect id="apt_f14_a01" data-name="apt f14 a01" class="cls-5" x="190.78" y="1940.57" width="500" height="117.3"/>
+      <rect id="apt_f14_a04" data-name="apt f14 a04" class="cls-5" x="1732.78" y="1940.57" width="500" height="117.3"/>
+      <rect id="apt_f14_a05" data-name="apt f14 a05" class="cls-5" x="2246.78" y="1940.57" width="500" height="117.3"/>
+      <rect id="apt_f15_a01" data-name="apt f15 a01" class="cls-5" x="190.78" y="2067.87" width="500" height="117.3"/>
+      <rect id="apt_f15_a02" data-name="apt f15 a02" class="cls-5" x="704.78" y="2067.87" width="500" height="117.3"/>
+      <rect id="apt_f15_a03" data-name="apt f15 a03" class="cls-5" x="1218.78" y="2067.87" width="500" height="117.3"/>
+      <rect id="apt_f15_a04" data-name="apt f15 a04" class="cls-5" x="1732.78" y="2067.87" width="500" height="117.3"/>
+      <rect id="apt_f15_a05" data-name="apt f15 a05" class="cls-5" x="2246.78" y="2067.87" width="500" height="117.3"/>
+      <rect id="apt_f01_a051" data-name="apt f01 a051" class="cls-5" x="2760.78" y="285.27" width="500" height="117.3"/>
+      <rect id="apt_f02_a051" data-name="apt f02 a051" class="cls-5" x="2760.78" y="412.57" width="500" height="117.3"/>
+      <rect id="apt_f03_a051" data-name="apt f03 a051" class="cls-5" x="2760.78" y="539.87" width="500" height="117.3"/>
+      <rect id="apt_f04_a051" data-name="apt f04 a051" class="cls-5" x="2760.78" y="667.27" width="500" height="117.3"/>
+      <rect id="apt_f05_a051" data-name="apt f05 a051" class="cls-5" x="2760.78" y="794.57" width="500" height="117.3"/>
+      <rect id="apt_f06_a051" data-name="apt f06 a051" class="cls-5" x="2760.78" y="921.87" width="500" height="117.3"/>
+      <rect id="apt_f07_a051" data-name="apt f07 a051" class="cls-5" x="2760.78" y="1049.27" width="500" height="117.3"/>
+      <rect id="apt_f08_a051" data-name="apt f08 a051" class="cls-5" x="2760.78" y="1176.57" width="500" height="117.3"/>
+      <rect id="apt_f09_a051" data-name="apt f09 a051" class="cls-5" x="2760.78" y="1303.87" width="500" height="117.3"/>
+      <rect id="apt_f10_a051" data-name="apt f10 a051" class="cls-5" x="2760.78" y="1431.27" width="500" height="117.3"/>
+      <rect id="apt_f11_a051" data-name="apt f11 a051" class="cls-5" x="2760.78" y="1558.57" width="500" height="117.3"/>
+      <rect id="apt_f12_a051" data-name="apt f12 a051" class="cls-5" x="2760.78" y="1685.87" width="500" height="117.3"/>
+      <rect id="apt_f13_a051" data-name="apt f13 a051" class="cls-5" x="2760.78" y="1813.27" width="500" height="117.3"/>
+      <rect id="apt_f14_a051" data-name="apt f14 a051" class="cls-5" x="2760.78" y="1940.57" width="500" height="117.3"/>
+      <rect id="apt_f15_a051" data-name="apt f15 a051" class="cls-5" x="2760.78" y="2067.87" width="500" height="117.3"/>
+      <text class="cls-1" transform="translate(206.78 2144.67)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(1кв)</tspan></text>
+      <text class="cls-1" transform="translate(206.78 2017.27)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(7кв)</tspan></text>
+      <text class="cls-1" transform="translate(725.08 2017.27)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(8кв)</tspan></text>
+      <text class="cls-2" transform="translate(1240.53 2017.27)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(9кв)</tspan></text>
+      <text class="cls-2" transform="translate(1762.09 2017.27)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(10кв)</tspan></text>
+      <text class="cls-1" transform="translate(2275.19 2017.27)"><tspan x="0" y="0">3 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(</tspan><tspan class="cls-9" x="318.05" y="0">1</tspan><tspan x="340.6" y="0">1кв)</tspan></text>
+      <text class="cls-1" transform="translate(2782.93 2017.27)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(12кв)</tspan></text>
+      <text class="cls-1" transform="translate(202.98 1889.88)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(13кв)</tspan></text>
+      <text class="cls-1" transform="translate(725.08 1889.88)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(14кв)</tspan></text>
+      <text class="cls-2" transform="translate(1240.53 1889.87)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(15кв)</tspan></text>
+      <text class="cls-2" transform="translate(1762.09 1889.87)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(16кв)</tspan></text>
+      <text class="cls-1" transform="translate(2275.19 1889.88)"><tspan x="0" y="0">3 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(17кв)</tspan></text>
+      <text class="cls-1" transform="translate(2787.23 1889.87)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(18кв)</tspan></text>
+      <text class="cls-1" transform="translate(202.98 1762.57)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(19кв)</tspan></text>
+      <text class="cls-1" transform="translate(725.08 1762.57)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(20кв)</tspan></text>
+      <text class="cls-2" transform="translate(1240.53 1762.57)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(21кв)</tspan></text>
+      <text class="cls-2" transform="translate(1762.09 1762.57)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(22кв)</tspan></text>
+      <text class="cls-1" transform="translate(2275.19 1762.57)"><tspan x="0" y="0">3 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(23кв)</tspan></text>
+      <text class="cls-1" transform="translate(2782.93 1762.57)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(24кв)</tspan></text>
+      <text class="cls-1" transform="translate(202.98 1635.17)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(25кв)</tspan></text>
+      <text class="cls-1" transform="translate(725.08 1635.17)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(26кв)</tspan></text>
+      <text class="cls-2" transform="translate(1240.53 1635.17)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(27кв)</tspan></text>
+      <text class="cls-2" transform="translate(1762.09 1635.17)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(28кв)</tspan></text>
+      <text class="cls-1" transform="translate(2275.19 1635.17)"><tspan x="0" y="0">3 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(29кв)</tspan></text>
+      <text class="cls-1" transform="translate(2782.93 1635.17)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(30кв)</tspan></text>
+      <text class="cls-1" transform="translate(202.98 1507.77)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(31кв)</tspan></text>
+      <text class="cls-1" transform="translate(725.08 1507.77)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(32кв)</tspan></text>
+      <text class="cls-2" transform="translate(1240.53 1507.77)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(33кв)</tspan></text>
+      <text class="cls-2" transform="translate(1767.79 1507.77)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(34кв)</tspan></text>
+      <text class="cls-1" transform="translate(2275.19 1507.77)"><tspan x="0" y="0">3 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(35кв)</tspan></text>
+      <text class="cls-1" transform="translate(2782.93 1507.77)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(36кв)</tspan></text>
+      <text class="cls-1" transform="translate(202.98 1380.47)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(37кв)</tspan></text>
+      <text class="cls-1" transform="translate(725.08 1380.47)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(38кв)</tspan></text>
+      <text class="cls-2" transform="translate(1240.53 1380.47)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(39кв)</tspan></text>
+      <text class="cls-2" transform="translate(1762.09 1380.47)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(40кв)</tspan></text>
+      <text class="cls-1" transform="translate(2275.19 1380.47)"><tspan x="0" y="0">3 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(41кв)</tspan></text>
+      <text class="cls-1" transform="translate(2782.93 1380.47)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(42кв)</tspan></text>
+      <text class="cls-1" transform="translate(206.78 1253.07)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(43кв)</tspan></text>
+      <text class="cls-1" transform="translate(725.08 1253.07)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(44кв)</tspan></text>
+      <text class="cls-2" transform="translate(1240.53 1253.07)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(45кв)</tspan></text>
+      <text class="cls-2" transform="translate(1762.09 1253.07)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(46кв)</tspan></text>
+      <text class="cls-1" transform="translate(2275.19 1253.07)"><tspan x="0" y="0">3 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(47кв)</tspan></text>
+      <text class="cls-1" transform="translate(2782.93 1253.07)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(48кв)</tspan></text>
+      <text class="cls-1" transform="translate(202.98 1125.67)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(49кв)</tspan></text>
+      <text class="cls-1" transform="translate(725.08 1125.67)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(50кв)</tspan></text>
+      <text class="cls-2" transform="translate(1240.53 1125.67)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(51кв)</tspan></text>
+      <text class="cls-2" transform="translate(1762.09 1125.67)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(52кв)</tspan></text>
+      <text class="cls-1" transform="translate(2275.19 1125.67)"><tspan x="0" y="0">3 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(53кв)</tspan></text>
+      <text class="cls-1" transform="translate(2782.93 1125.67)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(54кв)</tspan></text>
+      <text class="cls-1" transform="translate(202.98 998.38)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(55кв)</tspan></text>
+      <text class="cls-1" transform="translate(725.08 998.37)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(56кв)</tspan></text>
+      <text class="cls-2" transform="translate(1240.53 998.37)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(57кв)</tspan></text>
+      <text class="cls-2" transform="translate(1762.09 998.37)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(58кв)</tspan></text>
+      <text class="cls-1" transform="translate(2275.19 998.37)"><tspan x="0" y="0">3 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(59кв)</tspan></text>
+      <text class="cls-1" transform="translate(2782.93 998.37)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(60кв)</tspan></text>
+      <text class="cls-1" transform="translate(206.78 870.97)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(61кв)</tspan></text>
+      <text class="cls-1" transform="translate(725.08 870.97)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(62кв)</tspan></text>
+      <text class="cls-2" transform="translate(1240.53 870.97)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(63кв)</tspan></text>
+      <text class="cls-2" transform="translate(1762.09 870.97)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(64кв)</tspan></text>
+      <text class="cls-1" transform="translate(2275.19 870.97)"><tspan x="0" y="0">3 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(65кв)</tspan></text>
+      <text class="cls-1" transform="translate(2782.93 870.97)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(66кв)</tspan></text>
+      <text class="cls-1" transform="translate(202.98 743.57)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(67кв)</tspan></text>
+      <text class="cls-1" transform="translate(725.08 743.57)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(68кв)</tspan></text>
+      <text class="cls-2" transform="translate(1240.53 743.57)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(69кв)</tspan></text>
+      <text class="cls-2" transform="translate(1762.09 743.57)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(70кв)</tspan></text>
+      <text class="cls-1" transform="translate(2275.19 743.57)"><tspan x="0" y="0">3 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(71кв)</tspan></text>
+      <text class="cls-1" transform="translate(2782.93 743.57)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(72кв)</tspan></text>
+      <text class="cls-1" transform="translate(202.98 616.27)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(73кв)</tspan></text>
+      <text class="cls-1" transform="translate(725.08 616.27)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(74кв)</tspan></text>
+      <text class="cls-2" transform="translate(1240.53 616.27)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(75кв)</tspan></text>
+      <text class="cls-2" transform="translate(1762.09 616.27)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(76кв)</tspan></text>
+      <text class="cls-1" transform="translate(2275.19 616.27)"><tspan x="0" y="0">3 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(77кв)</tspan></text>
+      <text class="cls-1" transform="translate(2782.93 616.27)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(78кв)</tspan></text>
+      <text class="cls-1" transform="translate(202.98 488.88)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(79кв)</tspan></text>
+      <text class="cls-1" transform="translate(725.08 488.87)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(80кв)</tspan></text>
+      <text class="cls-2" transform="translate(1240.53 488.87)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(81кв)</tspan></text>
+      <text class="cls-2" transform="translate(1762.09 488.87)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(82кв)</tspan></text>
+      <text class="cls-1" transform="translate(2275.19 488.87)"><tspan x="0" y="0">3 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(83кв)</tspan></text>
+      <text class="cls-1" transform="translate(2782.93 488.87)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(84кв)</tspan></text>
+      <text class="cls-1" transform="translate(202.98 361.47)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(85кв)</tspan></text>
+      <text class="cls-1" transform="translate(725.08 361.47)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(86кв)</tspan></text>
+      <text class="cls-2" transform="translate(1231.98 361.47)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(87кв)</tspan></text>
+      <text class="cls-2" transform="translate(1762.09 361.47)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(88кв)</tspan></text>
+      <text class="cls-1" transform="translate(2275.19 361.47)"><tspan x="0" y="0">3 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(89кв)</tspan></text>
+      <text class="cls-1" transform="translate(2782.93 361.47)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(90кв)</tspan></text>
+      <text class="cls-1" transform="translate(725.08 2144.67)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(2кв)</tspan></text>
+      <text class="cls-2" transform="translate(1240.53 2144.67)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(3кв)</tspan></text>
+      <text class="cls-2" transform="translate(1777.29 2144.67)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-8" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(4кв)</tspan></text>
+      <text class="cls-1" transform="translate(2275.19 2144.67)"><tspan x="0" y="0">3 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(5кв)</tspan></text>
+      <text class="cls-1" transform="translate(2787.23 2144.67)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(6кв)</tspan></text>
+      <text class="cls-3" transform="translate(0 358.99)"><tspan x="0" y="0">15</tspan></text>
+      <text class="cls-3" transform="translate(0 486.39)"><tspan x="0" y="0">14</tspan></text>
+      <text class="cls-3" transform="translate(0 613.69)"><tspan x="0" y="0">13</tspan></text>
+      <text class="cls-3" transform="translate(0 740.99)"><tspan x="0" y="0">12</tspan></text>
+      <text class="cls-3" transform="translate(1 868.39)"><tspan class="cls-8" x="0" y="0">1</tspan><tspan x="27.55" y="0">1</tspan></text>
+      <text class="cls-3" transform="translate(0 995.69)"><tspan x="0" y="0">10</tspan></text>
+      <text class="cls-3" transform="translate(10 1122.99)"><tspan x="0" y="0">9</tspan></text>
+      <text class="cls-3" transform="translate(10 1250.39)"><tspan x="0" y="0">8</tspan></text>
+      <text class="cls-3" transform="translate(10 1377.69)"><tspan x="0" y="0">7</tspan></text>
+      <text class="cls-3" transform="translate(10 1504.99)"><tspan x="0" y="0">6</tspan></text>
+      <text class="cls-3" transform="translate(10 1632.39)"><tspan x="0" y="0">5</tspan></text>
+      <text class="cls-3" transform="translate(10 1759.69)"><tspan x="0" y="0">4</tspan></text>
+      <text class="cls-3" transform="translate(10 1886.99)"><tspan x="0" y="0">3</tspan></text>
+      <text class="cls-3" transform="translate(10 2014.39)"><tspan x="0" y="0">2</tspan></text>
+      <text class="cls-3" transform="translate(10 2141.69)"><tspan x="0" y="0">1</tspan></text>
+      <text class="cls-4" transform="translate(1378.32 177.71)"><tspan x="0" y="0">Б</tspan><tspan class="cls-10" x="122.19" y="0">л</tspan><tspan x="227.94" y="0">ок 10</tspan></text>
+    </g>
+  </g>
+</svg>

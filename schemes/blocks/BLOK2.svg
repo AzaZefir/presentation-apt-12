@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3249.31 2252.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00a651;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #1a1a1a;
+      }
+
+      .cls-3 {
+        fill: #f7f8f8;
+        stroke: #131313;
+      }
+
+      .cls-3, .cls-2 {
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        font-size: 200px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #ae4e4e;
+      }
+
+      .cls-5 {
+        font-size: 45px;
+      }
+
+      .cls-6 {
+        fill: #131313;
+        font-size: 55px;
+      }
+
+      .cls-7 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-3" d="M142.84,283.09h3101.3c2.03,0,3.67,1.65,3.67,3.67v1964.14H134.53V291.4c0-4.58,3.72-8.3,8.3-8.3Z"/>
+      <text class="cls-6" transform="translate(0 403.46)"><tspan x="0" y="0">15</tspan></text>
+      <rect id="uuid-9a287430-8996-4b25-8aa9-5d11367bdaa0" class="cls-1" x="151.63" y="317.1" width="500" height="117.3"/>
+      <rect id="uuid-8112acbd-dc25-471d-b720-7f75a8fe9d80" class="cls-1" x="665.63" y="317.1" width="500" height="117.3"/>
+      <rect id="uuid-2542721c-2bbb-41c8-960c-d9ccf44aaf28" class="cls-1" x="1179.63" y="317.1" width="500" height="117.3"/>
+      <rect id="uuid-3ecf4c8d-bdd9-43d2-81ec-9c708b6e6f6d" class="cls-1" x="1691.17" y="317.1" width="500" height="117.3"/>
+      <rect id="uuid-137042f4-b9db-42ff-9de5-809296708cac" class="cls-1" x="2207.63" y="317.1" width="500" height="117.3"/>
+      <text class="cls-6" transform="translate(0 530.86)"><tspan x="0" y="0">14</tspan></text>
+      <rect id="uuid-939028e7-9d8a-4fe5-a0bf-ff7401ea9445" class="cls-1" x="151.63" y="444.4" width="500" height="117.3"/>
+      <rect id="uuid-dea275cf-a7c4-44c3-94d4-9f9148df755d" class="cls-1" x="665.63" y="444.4" width="500" height="117.3"/>
+      <rect id="uuid-5d0a84a1-5664-4ebc-9778-5e5c67ed2f60" class="cls-1" x="1179.63" y="444.4" width="500" height="117.3"/>
+      <rect id="uuid-9a33c41a-1152-4555-b5b0-dbd7139582b8" class="cls-1" x="1691.17" y="444.4" width="500" height="117.3"/>
+      <rect id="uuid-834ff049-fc1b-4b32-9d12-1583ba9e8fcd" class="cls-1" x="2207.63" y="444.4" width="500" height="117.3"/>
+      <text class="cls-6" transform="translate(0 658.16)"><tspan x="0" y="0">13</tspan></text>
+      <rect id="uuid-c2b1028b-5591-4551-8a01-1a525b67e4bd" class="cls-1" x="151.63" y="571.7" width="500" height="117.3"/>
+      <rect id="uuid-d35b7239-0fe2-4eae-8fd8-22c64d2418b2" class="cls-1" x="665.63" y="571.7" width="500" height="117.3"/>
+      <rect id="uuid-2262d8a1-afd4-4a99-97f2-9220bdf22bdd" class="cls-1" x="1179.63" y="571.7" width="500" height="117.3"/>
+      <rect id="uuid-d480a808-672e-45ab-80cf-8a116c2c47a0" class="cls-1" x="1691.17" y="571.7" width="500" height="117.3"/>
+      <rect id="uuid-54e321d8-ae24-4fa3-b728-2b5480121118" class="cls-1" x="2207.63" y="571.7" width="500" height="117.3"/>
+      <text class="cls-6" transform="translate(0 785.46)"><tspan x="0" y="0">12</tspan></text>
+      <rect id="uuid-49364898-d2a2-4d55-b6cb-e2c477920100" class="cls-1" x="151.63" y="699.1" width="500" height="117.3"/>
+      <rect id="uuid-c69195bf-9d85-4e4f-8228-06dce7072544" class="cls-1" x="665.63" y="699.1" width="500" height="117.3"/>
+      <rect id="uuid-fa06041a-f39b-49e4-a27b-8ff227458657" class="cls-1" x="1179.63" y="699.1" width="500" height="117.3"/>
+      <rect id="uuid-f04376e7-8196-47a1-97c6-e2ccd99597db" class="cls-1" x="1691.17" y="699.1" width="500" height="117.3"/>
+      <rect id="uuid-3ad55ea2-cd7b-405d-aa83-f1eabfc02b44" class="cls-1" x="2207.63" y="699.1" width="500" height="117.3"/>
+      <text class="cls-6" transform="translate(1 912.86)"><tspan class="cls-7" x="0" y="0">1</tspan><tspan x="27.55" y="0">1</tspan></text>
+      <rect id="uuid-fa837715-8ee4-45d9-9bf2-e2ec3da83828" class="cls-1" x="151.63" y="826.4" width="500" height="117.3"/>
+      <rect id="uuid-2bcfbf8e-bac9-4529-bc8f-652ec53eeb04" class="cls-1" x="665.63" y="826.4" width="500" height="117.3"/>
+      <rect id="uuid-6619637b-b2e2-45b4-ad8b-2079ba743302" class="cls-1" x="1179.63" y="826.4" width="500" height="117.3"/>
+      <rect id="uuid-1b27c889-0526-4c81-875b-e406c136a02d" class="cls-1" x="1691.17" y="826.4" width="500" height="117.3"/>
+      <rect id="uuid-fcd61b56-5499-42e0-a0ee-2167466cf506" class="cls-1" x="2207.63" y="826.4" width="500" height="117.3"/>
+      <text class="cls-6" transform="translate(0 1040.16)"><tspan x="0" y="0">10</tspan></text>
+      <rect id="uuid-ac4e5582-4d71-44f2-86e8-8ee0063d3464" class="cls-1" x="151.63" y="953.7" width="500" height="117.3"/>
+      <rect id="uuid-987499a0-0c63-454b-a2a6-e291944669b0" class="cls-1" x="665.63" y="953.7" width="500" height="117.3"/>
+      <rect id="uuid-5c38a45b-8437-4895-b057-457c31ce371f" class="cls-1" x="1179.63" y="953.7" width="500" height="117.3"/>
+      <rect id="uuid-f061123f-a74d-4853-8d18-339f6ce74e8e" class="cls-1" x="1691.17" y="953.7" width="500" height="117.3"/>
+      <rect id="uuid-58e2795e-f805-48fe-acaa-f9eb2f67a18a" class="cls-1" x="1691.17" y="1081.1" width="500" height="117.3"/>
+      <rect id="uuid-1671d8a5-433f-4619-9d6f-aca34c2b088f" class="cls-1" x="2207.63" y="953.7" width="500" height="117.3"/>
+      <text class="cls-6" transform="translate(10 1167.46)"><tspan x="0" y="0">9</tspan></text>
+      <rect id="uuid-c10d6870-b4b6-480d-9428-5b5e530abb1b" class="cls-1" x="151.63" y="1081.1" width="500" height="117.3"/>
+      <rect id="uuid-d6eeeaa9-46ff-4fa8-a08c-f9730d16731e" class="cls-1" x="665.63" y="1081.1" width="500" height="117.3"/>
+      <rect id="uuid-f3261c7c-4476-41b4-9e46-f814634c82ca" class="cls-1" x="1179.63" y="1081.1" width="500" height="117.3"/>
+      <rect id="uuid-a093b117-3ed9-47da-9755-fe7e6aa4d522" class="cls-1" x="2207.63" y="1081.1" width="500" height="117.3"/>
+      <text class="cls-6" transform="translate(10 1294.86)"><tspan x="0" y="0">8</tspan></text>
+      <rect id="uuid-7092a8cb-ecb5-4e15-ad59-10eb82cd60f4" class="cls-1" x="151.63" y="1208.4" width="500" height="117.3"/>
+      <rect id="uuid-a421ec7b-eb2e-426b-b807-cf9a94965001" class="cls-1" x="665.63" y="1208.4" width="500" height="117.3"/>
+      <rect id="uuid-565dddd8-2e15-4d00-a789-2ff77bd1083f" class="cls-1" x="1179.63" y="1208.4" width="500" height="117.3"/>
+      <rect id="uuid-8317d394-a239-4231-8637-8aa58247736e" class="cls-1" x="1179.63" y="1335.7" width="500" height="117.3"/>
+      <rect id="uuid-9b0b8fd2-5a1f-4448-9724-dcc59de808ed" class="cls-1" x="1691.17" y="1208.4" width="500" height="117.3"/>
+      <rect id="uuid-54454f6f-343b-47b0-bad6-35a8b245c9ee" class="cls-1" x="2207.63" y="1208.4" width="500" height="117.3"/>
+      <text class="cls-6" transform="translate(10 1422.16)"><tspan x="0" y="0">7</tspan></text>
+      <rect id="uuid-fe3e7501-cb52-4cf5-bd8c-f641aadaae9f" class="cls-1" x="151.63" y="1335.7" width="500" height="117.3"/>
+      <rect id="uuid-6adddf69-85d8-4304-8062-313f715bc873" class="cls-1" x="151.63" y="1463.1" width="500" height="117.3"/>
+      <rect id="uuid-94d00568-f387-40b4-a503-e5be7d2cae63" class="cls-1" x="665.63" y="1335.7" width="500" height="117.3"/>
+      <rect id="uuid-8c9cb7a7-1b3c-4af6-be79-983abe45108f" class="cls-1" x="1691.17" y="1335.7" width="500" height="117.3"/>
+      <rect id="uuid-07013cb1-a95d-4548-83e9-f3cb7f27b267" class="cls-1" x="2207.63" y="1335.7" width="500" height="117.3"/>
+      <text class="cls-6" transform="translate(10 1549.46)"><tspan x="0" y="0">6</tspan></text>
+      <rect id="uuid-34a494d4-689b-4c43-89de-2657eb74022c" class="cls-1" x="665.63" y="1463.1" width="500" height="117.3"/>
+      <rect id="uuid-5ef567b2-55fd-4799-823e-a199a3af381f" class="cls-1" x="1179.63" y="1463.1" width="500" height="117.3"/>
+      <rect id="uuid-2fe8d29c-ccdb-4315-9801-62164a4f8360" class="cls-1" x="1691.17" y="1463.1" width="500" height="117.3"/>
+      <rect id="uuid-f057477c-99a9-47cb-a68a-ec284a7ca11f" class="cls-1" x="2207.63" y="1463.1" width="500" height="117.3"/>
+      <text class="cls-6" transform="translate(10 1676.86)"><tspan x="0" y="0">5</tspan></text>
+      <rect id="uuid-90647bca-5685-48cc-bfc5-be266541dd06" class="cls-1" x="151.63" y="1590.4" width="500" height="117.3"/>
+      <rect id="uuid-b809bce8-e4ab-4b59-80cd-27e2f1d8f83f" class="cls-1" x="665.63" y="1590.4" width="500" height="117.3"/>
+      <rect id="uuid-f1ae5180-94e2-403a-bf8d-4f2e6ca32de8" class="cls-1" x="1179.63" y="1590.4" width="500" height="117.3"/>
+      <rect id="uuid-d1a420eb-95da-4f7f-b1a4-b1415f883916" class="cls-1" x="1691.17" y="1590.4" width="500" height="117.3"/>
+      <rect id="uuid-4ebd98a1-b266-4051-8e13-ec8247b6bbdf" class="cls-1" x="2207.63" y="1590.4" width="500" height="117.3"/>
+      <text class="cls-6" transform="translate(10 1804.16)"><tspan x="0" y="0">4</tspan></text>
+      <rect id="uuid-aa443a13-9714-4571-8c0e-dae7cc161ff9" class="cls-1" x="151.63" y="1717.7" width="500" height="117.3"/>
+      <rect id="uuid-7538a151-c4f0-484f-8273-e6501dcaf741" class="cls-1" x="665.63" y="1717.7" width="500" height="117.3"/>
+      <rect id="uuid-c6389b82-5968-4aae-a18f-eb5097b3ab14" class="cls-1" x="1179.63" y="1717.7" width="500" height="117.3"/>
+      <rect id="uuid-c5261797-f0ca-4b42-8741-93b1d034b8c3" class="cls-1" x="1691.17" y="1717.7" width="500" height="117.3"/>
+      <rect id="uuid-15ec253b-5519-4c1a-9a33-417a9b3c1344" class="cls-1" x="2207.63" y="1717.7" width="500" height="117.3"/>
+      <text class="cls-6" transform="translate(10 1931.46)"><tspan x="0" y="0">3</tspan></text>
+      <rect id="uuid-a80e2842-88b7-4a24-8017-ce92fe4b2557" class="cls-1" x="151.63" y="1845.1" width="500" height="117.3"/>
+      <rect id="uuid-6f374773-37d0-4996-b694-a8e8ec13d675" class="cls-1" x="665.63" y="1845.1" width="500" height="117.3"/>
+      <rect id="uuid-172f811e-ae45-4669-8fc5-dbc5a22aad17" class="cls-1" x="665.63" y="1972.4" width="500" height="117.3"/>
+      <rect id="uuid-3ee50e43-6bf7-4f97-9def-1a8b263a16e1" class="cls-1" x="1179.63" y="1845.1" width="500" height="117.3"/>
+      <rect id="uuid-52c474cd-215a-4209-b860-8e2cdbeb6a6c" class="cls-1" x="1179.63" y="1972.4" width="500" height="117.3"/>
+      <rect id="uuid-86a4c818-a11f-459d-a005-ea4dfa2ad1ed" class="cls-1" x="1691.17" y="1845.1" width="500" height="117.3"/>
+      <rect id="uuid-3f1e727c-af6f-4b68-af1f-c02a2369cbe0" class="cls-1" x="2207.63" y="1845.1" width="500" height="117.3"/>
+      <text class="cls-6" transform="translate(10 2058.86)"><tspan x="0" y="0">2</tspan></text>
+      <rect id="uuid-0adad378-2f24-467c-a6e5-2d3f43df49eb" class="cls-1" x="151.63" y="1972.4" width="500" height="117.3"/>
+      <rect id="uuid-e2f9a654-4e68-4383-880f-226fafe20131" class="cls-1" x="1691.17" y="1972.4" width="500" height="117.3"/>
+      <rect id="uuid-d56afc98-f4e5-41ab-a7b4-ccfe82573f5f" class="cls-1" x="2207.63" y="1972.4" width="500" height="117.3"/>
+      <text class="cls-6" transform="translate(10 2186.16)"><tspan x="0" y="0">1</tspan></text>
+      <rect id="uuid-13dd8507-5e1d-4e86-9ae8-9f19479c955b" class="cls-1" x="151.63" y="2099.7" width="500" height="117.3"/>
+      <text class="cls-5" transform="translate(179.99 2175.55)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(1кв)</tspan></text>
+      <rect id="uuid-5cdec80a-42f4-482c-bffb-d625209ac779" class="cls-1" x="665.63" y="2099.7" width="500" height="117.3"/>
+      <text class="cls-5" transform="translate(691.88 2174.6)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(2кв)</tspan></text>
+      <rect id="uuid-28afb647-3076-4ac7-9671-f82e02ded4bd" class="cls-1" x="1179.63" y="2099.7" width="500" height="117.3"/>
+      <text class="cls-5" transform="translate(1192.83 2174.6)"><tspan x="0" y="0">1 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(3кв)</tspan></text>
+      <rect id="uuid-df4d8e62-9da5-4bf9-8037-9e9bf650d9f8" class="cls-1" x="1691.17" y="2099.7" width="500" height="117.3"/>
+      <text class="cls-5" transform="translate(1717.24 2174.6)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(4кв)</tspan></text>
+      <rect id="uuid-ffdd848c-1805-4ef7-9d46-394941a2e0f7" class="cls-1" x="2207.63" y="2099.7" width="500" height="117.3"/>
+      <text class="cls-5" transform="translate(2234.09 2168.9)"><tspan x="0" y="0">3 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(5кв)</tspan></text>
+      <rect id="uuid-84950aa3-7f33-4272-8b9c-57a170310534" class="cls-1" x="2721.63" y="317.1" width="500" height="117.3"/>
+      <rect id="uuid-280f9bfc-eaac-4633-8b82-92b649a5c401" class="cls-1" x="2721.63" y="444.4" width="500" height="117.3"/>
+      <rect id="uuid-c34b66e0-07d5-4122-bc5c-b713a117ce1d" class="cls-1" x="2721.63" y="571.7" width="500" height="117.3"/>
+      <rect id="uuid-dda83ef3-9f95-47f4-bda3-5ab9aa5c2907" class="cls-1" x="2721.63" y="699.1" width="500" height="117.3"/>
+      <rect id="uuid-c98c175c-2911-453b-9f37-98ea076aac03" class="cls-1" x="2721.63" y="826.4" width="500" height="117.3"/>
+      <rect id="uuid-43b43978-55ff-42c6-b99a-dbf7ca6f49a7" class="cls-1" x="2721.63" y="953.7" width="500" height="117.3"/>
+      <rect id="uuid-cb5678c8-6468-4aa0-b092-d43de5e3d8b9" class="cls-1" x="2721.63" y="1081.1" width="500" height="117.3"/>
+      <rect id="uuid-e1cfb9d5-29bd-4d42-95ce-cbee8155e8fd" class="cls-1" x="2721.63" y="1208.4" width="500" height="117.3"/>
+      <rect id="uuid-efbb692d-a2b3-4e34-8c09-d19008110757" class="cls-1" x="2721.63" y="1335.7" width="500" height="117.3"/>
+      <rect id="uuid-da76203f-c4be-482a-8301-814cba487c14" class="cls-1" x="2721.63" y="1463.1" width="500" height="117.3"/>
+      <rect id="uuid-abe62285-c31d-415a-9faf-2cc9a4d38452" class="cls-1" x="2721.63" y="1590.4" width="500" height="117.3"/>
+      <rect id="uuid-d44c1026-9bfa-427f-8b38-5b71b0ae1342" class="cls-1" x="2721.63" y="1717.7" width="500" height="117.3"/>
+      <rect id="uuid-b4d9771b-f2f3-4bd2-b820-17499e6336a7" class="cls-1" x="2721.63" y="1845.1" width="500" height="117.3"/>
+      <rect id="uuid-dcbfd970-cbdc-41b4-a285-036ff1ebd410" class="cls-1" x="2721.63" y="1972.4" width="500" height="117.3"/>
+      <rect id="uuid-b8dc5ced-2faa-4aa9-8f38-c2742b250689" class="cls-1" x="2721.63" y="2099.7" width="500" height="117.3"/>
+      <text class="cls-5" transform="translate(2753.34 2167.47)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(6кв)</tspan></text>
+      <text class="cls-5" transform="translate(179.99 2046.25)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(7кв)</tspan></text>
+      <text class="cls-5" transform="translate(691.88 2046.25)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(8кв)</tspan></text>
+      <text class="cls-5" transform="translate(1192.83 2046.25)"><tspan x="0" y="0">1 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(9кв)</tspan></text>
+      <text class="cls-5" transform="translate(1717.24 2046.25)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(10кв)</tspan></text>
+      <text class="cls-5" transform="translate(2234.09 2046.25)"><tspan x="0" y="0">3 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(</tspan><tspan class="cls-8" x="318.05" y="0">1</tspan><tspan x="340.6" y="0">1кв)</tspan></text>
+      <text class="cls-5" transform="translate(2749.04 2040.07)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(12кв)</tspan></text>
+      <text class="cls-5" transform="translate(179.99 1918.85)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(13кв)</tspan></text>
+      <text class="cls-5" transform="translate(691.88 1918.85)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(14кв)</tspan></text>
+      <text class="cls-5" transform="translate(1192.83 1918.85)"><tspan x="0" y="0">1 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(15кв)</tspan></text>
+      <text class="cls-5" transform="translate(1717.24 1920.75)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(16кв)</tspan></text>
+      <text class="cls-5" transform="translate(2234.09 1920.75)"><tspan x="0" y="0">3 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(17кв)</tspan></text>
+      <text class="cls-5" transform="translate(2753.34 1919.32)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(18кв)</tspan></text>
+      <text class="cls-5" transform="translate(179.99 1793.92)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(19кв)</tspan></text>
+      <text class="cls-5" transform="translate(691.88 1796.3)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(20кв)</tspan></text>
+      <text class="cls-5" transform="translate(1192.83 1796.3)"><tspan x="0" y="0">1 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(21кв)</tspan></text>
+      <text class="cls-5" transform="translate(1717.24 1794.4)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(22кв)</tspan></text>
+      <text class="cls-5" transform="translate(2234.09 1794.4)"><tspan x="0" y="0">3 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(23кв)</tspan></text>
+      <text class="cls-5" transform="translate(2749.04 1792.97)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(24кв)</tspan></text>
+      <text class="cls-5" transform="translate(179.99 1667)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(25кв)</tspan></text>
+      <text class="cls-5" transform="translate(691.88 1666.05)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(26кв)</tspan></text>
+      <text class="cls-5" transform="translate(1192.83 1666.05)"><tspan x="0" y="0">1 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(27кв)</tspan></text>
+      <text class="cls-5" transform="translate(1717.24 1665.1)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(28кв)</tspan></text>
+      <text class="cls-5" transform="translate(2234.09 1665.1)"><tspan x="0" y="0">3 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(29кв)</tspan></text>
+      <text class="cls-5" transform="translate(2749.04 1663.67)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(30кв)</tspan></text>
+      <text class="cls-5" transform="translate(179.99 1536.27)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(31кв)</tspan></text>
+      <text class="cls-5" transform="translate(691.88 1537.7)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(32кв)</tspan></text>
+      <text class="cls-5" transform="translate(1192.83 1537.7)"><tspan x="0" y="0">1 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(33кв)</tspan></text>
+      <text class="cls-5" transform="translate(1717.24 1537.7)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(34кв)</tspan></text>
+      <text class="cls-5" transform="translate(2234.09 1537.7)"><tspan x="0" y="0">3 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(35кв)</tspan></text>
+      <text class="cls-5" transform="translate(2749.04 1536.27)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(36кв)</tspan></text>
+      <text class="cls-5" transform="translate(179.99 1411.35)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(37кв)</tspan></text>
+      <text class="cls-5" transform="translate(691.88 1411.35)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(38кв)</tspan></text>
+      <text class="cls-5" transform="translate(1192.83 1411.35)"><tspan x="0" y="0">1 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(39кв)</tspan></text>
+      <text class="cls-5" transform="translate(1717.24 1411.35)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(40кв)</tspan></text>
+      <text class="cls-5" transform="translate(2234.09 1411.35)"><tspan x="0" y="0">3 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(41кв)</tspan></text>
+      <text class="cls-5" transform="translate(2749.04 1409.92)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(42кв)</tspan></text>
+      <text class="cls-5" transform="translate(179.99 1283.95)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(43кв)</tspan></text>
+      <text class="cls-5" transform="translate(691.88 1283)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(44кв)</tspan></text>
+      <text class="cls-5" transform="translate(1192.83 1283)"><tspan x="0" y="0">1 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(45кв)</tspan></text>
+      <text class="cls-5" transform="translate(1717.24 1283.95)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(46кв)</tspan></text>
+      <text class="cls-5" transform="translate(2234.09 1283.95)"><tspan x="0" y="0">3 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(47кв)</tspan></text>
+      <text class="cls-5" transform="translate(2749.04 1282.52)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(48кв)</tspan></text>
+      <text class="cls-5" transform="translate(179.99 1157.5)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(49кв)</tspan></text>
+      <text class="cls-5" transform="translate(691.88 1157.5)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(50кв)</tspan></text>
+      <text class="cls-5" transform="translate(1192.83 1157.5)"><tspan x="0" y="0">1 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(51кв)</tspan></text>
+      <text class="cls-5" transform="translate(1717.24 1154.65)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(52кв)</tspan></text>
+      <text class="cls-5" transform="translate(2234.09 1154.65)"><tspan x="0" y="0">3 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(53кв)</tspan></text>
+      <text class="cls-5" transform="translate(2749.04 1153.22)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(54кв)</tspan></text>
+      <text class="cls-5" transform="translate(179.99 1029.72)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(55кв)</tspan></text>
+      <text class="cls-5" transform="translate(691.88 1029.72)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(56кв)</tspan></text>
+      <text class="cls-5" transform="translate(1192.83 1029.72)"><tspan x="0" y="0">1 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(57кв)</tspan></text>
+      <text class="cls-5" transform="translate(1717.24 1026.4)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(58кв)</tspan></text>
+      <text class="cls-5" transform="translate(2234.09 1026.4)"><tspan x="0" y="0">3 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(59кв)</tspan></text>
+      <text class="cls-5" transform="translate(2749.04 1024.97)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(60кв)</tspan></text>
+      <text class="cls-5" transform="translate(179.99 900.9)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(61кв)</tspan></text>
+      <text class="cls-5" transform="translate(691.88 900.9)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(62кв)</tspan></text>
+      <text class="cls-5" transform="translate(1192.83 900.9)"><tspan x="0" y="0">1 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(63кв)</tspan></text>
+      <text class="cls-5" transform="translate(1717.24 900.9)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(64кв)</tspan></text>
+      <text class="cls-5" transform="translate(2230.34 900.9)"><tspan x="0" y="0">3 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(65кв)</tspan></text>
+      <text class="cls-5" transform="translate(2749.04 899.47)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(66кв)</tspan></text>
+      <text class="cls-5" transform="translate(179.99 773.5)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(67кв)</tspan></text>
+      <text class="cls-5" transform="translate(691.88 773.5)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(68кв)</tspan></text>
+      <text class="cls-5" transform="translate(1192.83 773.5)"><tspan x="0" y="0">1 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(69кв)</tspan></text>
+      <text class="cls-5" transform="translate(1717.23 773.5)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(70кв)</tspan></text>
+      <text class="cls-5" transform="translate(2230.34 773.5)"><tspan x="0" y="0">3 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(71кв)</tspan></text>
+      <text class="cls-5" transform="translate(2749.04 772.07)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(72кв)</tspan></text>
+      <text class="cls-5" transform="translate(179.99 650.48)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(73кв)</tspan></text>
+      <text class="cls-5" transform="translate(691.88 650.48)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(74кв)</tspan></text>
+      <text class="cls-5" transform="translate(1192.83 650.48)"><tspan x="0" y="0">1 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(75кв)</tspan></text>
+      <text class="cls-5" transform="translate(1717.23 650.48)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(76кв)</tspan></text>
+      <text class="cls-5" transform="translate(2230.34 650.48)"><tspan x="0" y="0">3 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(77кв)</tspan></text>
+      <text class="cls-5" transform="translate(2749.04 649.05)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(78кв)</tspan></text>
+      <text class="cls-5" transform="translate(179.99 521.65)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(79кв)</tspan></text>
+      <text class="cls-5" transform="translate(691.88 521.65)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(80кв)</tspan></text>
+      <text class="cls-5" transform="translate(1192.83 521.65)"><tspan x="0" y="0">1 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(81кв)</tspan></text>
+      <text class="cls-5" transform="translate(1717.23 521.65)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(82кв)</tspan></text>
+      <text class="cls-5" transform="translate(2230.34 521.65)"><tspan x="0" y="0">3 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(83кв)</tspan></text>
+      <text class="cls-5" transform="translate(2749.04 520.23)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(84кв)</tspan></text>
+      <text class="cls-5" transform="translate(179.99 403.46)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.55.50м2(85кв)</tspan></text>
+      <text class="cls-5" transform="translate(691.88 401.85)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.91.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(86кв)</tspan></text>
+      <text class="cls-5" transform="translate(1192.83 401.85)"><tspan x="0" y="0">1 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.59.25м2(87кв)</tspan></text>
+      <text class="cls-5" transform="translate(1717.23 401.85)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.80.14м2(88кв)</tspan></text>
+      <text class="cls-5" transform="translate(2230.34 401.85)"><tspan x="0" y="0">3 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.84.98м2(89кв)</tspan></text>
+      <text class="cls-5" transform="translate(2749.04 400.43)"><tspan x="0" y="0">2 </tspan><tspan class="cls-9" x="37.53" y="0">ко</tspan><tspan x="86.35" y="0">м.82.</tspan><tspan class="cls-7" x="194.7" y="0">1</tspan><tspan x="217.24" y="0">1м2(90кв)</tspan></text>
+      <path class="cls-2" d="M3246.62,281.99H137.19L281.12,1.5h2822.75l143.4,279.43c.25.48-.1,1.06-.65,1.06Z"/>
+      <text class="cls-4" transform="translate(1347.37 204.54)"><tspan x="0" y="0">Б</tspan><tspan class="cls-9" x="143.75" y="0">л</tspan><tspan x="268.16" y="0">ок 2</tspan></text>
+    </g>
+  </g>
+</svg>
