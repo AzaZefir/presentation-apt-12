@@ -84,156 +84,187 @@
         <text class="cls-3" transform="translate(26.02 2063.9)"><tspan x="0" y="0">2</tspan></text>
         <text class="cls-3" transform="translate(26.02 2200.43)"><tspan x="0" y="0">1</tspan></text>
       </g>
-      <rect id="apt_f15_a0101" data-name="apt_f15_a0101" class="cls-4" x="145.34" y="2106.74" width="529.02" height="124.11"/>
+
+      <!-- floor 1 -->
+      <rect id="apt_b01_f01_a01" data-name="apt_f15_a0101" class="cls-4" x="145.34" y="2106.74" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(168.58 2187.96)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м. 75.47м2(1кв)</tspan></text>
-      <rect id="apt_f15_a0201" data-name="apt_f15_a0201" class="cls-4" x="689.18" y="2106.84" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f01_a02" data-name="apt_f15_a0201" class="cls-4" x="689.18" y="2106.84" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(729.76 2185.33)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.81.33м2(2кв)</tspan></text>
-      <rect id="apt_f15_a0301" data-name="apt_f15_a0301"   class="cls-4" x="1232.71" y="2106.74" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f01_a03" data-name="apt_f15_a0301"   class="cls-4" x="1232.71" y="2106.74" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1270.66 2185.33)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.49м2(3кв)</tspan></text>
-      <rect id="apt_f15_a0401" data-name="apt_f15_a0401" class="cls-4" x="1776.69" y="2106.95" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f01_a04" data-name="apt_f15_a0401" class="cls-4" x="1776.69" y="2106.95" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1819.92 2185.33)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.60м2(4кв)</tspan></text>
-      <rect id="apt_f15_a0501" data-name="apt_f15_a0501" class="cls-4" x="2320.67" y="2107.05" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f01_a05" data-name="apt_f15_a0501" class="cls-4" x="2320.67" y="2107.05" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(2363.75 2185.33)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.45.93м2(5кв)</tspan></text>
-      <rect id="apt_f15_a0111" data-name="apt f15 a0111" class="cls-4" x="145.34" y="1972.05" width="529.02" height="124.11"/>
+
+      <!-- floor 2 -->
+      <rect id="apt_b01_f02_a01" data-name="apt f15 a0111" class="cls-4" x="145.34" y="1972.05" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(168.58 2060.82)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м. 75.47м2(6кв)</tspan></text>
-      <rect id="apt_f15_a0211" data-name="apt f15 a0211" class="cls-4" x="689.18" y="1972.16" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f02_a02" data-name="apt f15 a0211" class="cls-4" x="689.18" y="1972.16" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(729.76 2058.19)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.81.33м2(7кв)</tspan></text>
-      <rect id="apt_f15_a0311" data-name="apt f15 a0311" class="cls-4" x="1232.71" y="1972.05" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f02_a03" data-name="apt f15 a0311" class="cls-4" x="1232.71" y="1972.05" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1270.66 2058.19)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.49м2(8кв)</tspan></text>
-      <rect id="apt_f15_a0411" data-name="apt f15 a0411" class="cls-4" x="1776.69" y="1972.26" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f02_a04" data-name="apt f15 a0411" class="cls-4" x="1776.69" y="1972.26" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1819.92 2058.19)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.60м2(9кв)</tspan></text>
-      <rect id="apt_f15_a0521" data-name="apt f15 a0521" class="cls-4" x="2320.67" y="1972.37" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f02_a05" data-name="apt f15 a0521" class="cls-4" x="2320.67" y="1972.37" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(2363.75 2058.19)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.45.93м2(10кв)</tspan></text>
-      <rect id="apt_f15_a0112" data-name="apt f15 a0112" class="cls-4" x="145.34" y="1837.36" width="529.02" height="124.11"/>
+
+      <!-- floor 3 -->
+      <rect id="apt_b01_f03_a01" data-name="apt f15 a0112" class="cls-4" x="145.34" y="1837.36" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(168.58 1923.25)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м. 75.47м2(</tspan><tspan class="cls-8" x="349.74" y="0">1</tspan><tspan x="373.59" y="0">1кв)</tspan></text>
-      <rect id="apt_f15_a0212" data-name="apt f15 a0212" class="cls-4" x="689.18" y="1837.47" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f03_a02" data-name="apt f15 a0212" class="cls-4" x="689.18" y="1837.47" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(724.47 1920.62)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.81.33м2(12кв)</tspan></text>
-      <rect id="apt_f15_a0312" data-name="apt f15 a0312" class="cls-4" x="1232.71" y="1837.36" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f03_a03" data-name="apt f15 a0312" class="cls-4" x="1232.71" y="1837.36" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1270.66 1920.62)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.49м2(13кв)</tspan></text>
-      <rect id="apt_f15_a0412" data-name="apt f15 a0412" class="cls-4" x="1776.69" y="1837.68" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f03_a04" data-name="apt f15 a0412" class="cls-4" x="1776.69" y="1837.68" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1819.92 1920.62)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.60м2(14кв)</tspan></text>
-      <rect id="apt_f15_a0522" data-name="apt f15 a0522" class="cls-4" x="2320.67" y="1837.68" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f03_a05" data-name="apt f15 a0522" class="cls-4" x="2320.67" y="1837.68" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(2363.75 1920.62)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.45.93м2(15кв)</tspan></text>
-      <rect id="apt_f15_a0113" data-name="apt f15 a0113" class="cls-4" x="145.34" y="1702.57" width="529.02" height="124.11"/>
+
+      <!-- floor 4 -->
+      <rect id="apt_b01_f04_a01" data-name="apt f15 a0113" class="cls-4" x="145.34" y="1702.57" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(168.58 1786.72)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м. 75.47м2(16кв)</tspan></text>
-      <rect id="apt_f15_a0213" data-name="apt f15 a0213" class="cls-4" x="689.18" y="1702.67" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f04_a02" data-name="apt f15 a0213" class="cls-4" x="689.18" y="1702.67" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(724.47 1784.68)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.81.33м2(17кв)</tspan></text>
-      <rect id="apt_f15_a0313" data-name="apt f15 a0313" class="cls-4" x="1232.71" y="1702.57" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f04_a03" data-name="apt f15 a0313" class="cls-4" x="1232.71" y="1702.57" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1270.66 1784.68)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.49м2(18кв)</tspan></text>
-      <rect id="apt_f15_a0413" data-name="apt f15 a0413" class="cls-4" x="1776.69" y="1702.78" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f04_a04" data-name="apt f15 a0413" class="cls-4" x="1776.69" y="1702.78" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1819.92 1784.68)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.60м2(19кв)</tspan></text>
-      <rect id="apt_f15_a0523" data-name="apt f15 a0523" class="cls-4" x="2320.67" y="1702.88" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f04_a05" data-name="apt f15 a0523" class="cls-4" x="2320.67" y="1702.88" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(2356.21 1784.68)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.45.93м2(20кв)</tspan></text>
-      <rect id="apt_f15_a0114" data-name="apt f15 a0114" class="cls-4" x="145.34" y="1567.77" width="529.02" height="124.11"/>
+
+      <!-- floor 5 -->
+      <rect id="apt_b01_f05_a01" data-name="apt f15 a0114" class="cls-4" x="145.34" y="1567.77" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(168.58 1650.19)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м. 75.47м2(21кв)</tspan></text>
-      <rect id="apt_f15_a0214" data-name="apt f15 a0214" class="cls-4" x="689.18" y="1567.88" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f05_a02" data-name="apt f15 a0214" class="cls-4" x="689.18" y="1567.88" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(724.47 1647.56)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.81.33м2(22кв)</tspan></text>
-      <rect id="apt_f15_a0314" data-name="apt f15 a0314" class="cls-4" x="1232.71" y="1567.77" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f05_a03" data-name="apt f15 a0314" class="cls-4" x="1232.71" y="1567.77" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1270.66 1647.56)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.49м2(23кв)</tspan></text>
-      <rect id="apt_f15_a0414" data-name="apt f15 a0414" class="cls-4" x="1776.69" y="1567.98" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f05_a04" data-name="apt f15 a0414" class="cls-4" x="1776.69" y="1567.98" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1819.92 1647.56)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.60м2(24кв)</tspan></text>
-      <rect id="apt_f15_a0524" data-name="apt f15 a0524" class="cls-4" x="2320.67" y="1568.09" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f05_a05" data-name="apt f15 a0524" class="cls-4" x="2320.67" y="1568.09" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(2356.21 1647.56)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.45.93м2(25кв)</tspan></text>
-      <rect id="apt_f15_a0115" data-name="apt f15 a0115" class="cls-4" x="145.34" y="1432.98" width="529.02" height="124.11"/>
+
+      <!-- floor 6 -->
+      <rect id="apt_b01_f06_a01" data-name="apt f15 a0115" class="cls-4" x="145.34" y="1432.98" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(168.58 1513.55)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м. 75.47м2(26кв)</tspan></text>
-      <rect id="apt_f15_a0215" data-name="apt f15 a0215" class="cls-4" x="689.18" y="1433.08" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f06_a02" data-name="apt f15 a0215" class="cls-4" x="689.18" y="1433.08" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(724.47 1510.92)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.81.33м2(27кв)</tspan></text>
-      <rect id="apt_f15_a0315" data-name="apt f15 a0315" class="cls-4" x="1232.71" y="1432.98" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f06_a03" data-name="apt f15 a0315" class="cls-4" x="1232.71" y="1432.98" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1270.66 1510.92)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.49м2(28кв)</tspan></text>
-      <rect id="apt_f15_a0415" data-name="apt f15 a0415" class="cls-4" x="1776.69" y="1433.19" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f06_a04" data-name="apt f15 a0415" class="cls-4" x="1776.69" y="1433.19" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1819.92 1510.92)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.60м2(29кв)</tspan></text>
-      <rect id="apt_f15_a0525" data-name="apt f15 a0525" class="cls-4" x="2320.67" y="1433.3" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f06_a05" data-name="apt f15 a0525" class="cls-4" x="2320.67" y="1433.3" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(2356.21 1510.92)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.45.93м2(30кв)</tspan></text>
-      <rect id="apt_f15_a0116" data-name="apt f15 a0116" class="cls-4" x="145.34" y="1298.18" width="529.02" height="124.11"/>
+
+      <!-- floor 7 -->
+      <rect id="apt_b01_f07_a01" data-name="apt f15 a0116" class="cls-4" x="145.34" y="1298.18" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(168.58 1377.02)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м. 75.47м2(31кв)</tspan></text>
-      <rect id="apt_f15_a0216" data-name="apt f15 a0216" class="cls-4" x="689.18" y="1298.29" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f07_a02" data-name="apt f15 a0216" class="cls-4" x="689.18" y="1298.29" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(724.47 1371.6)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.81.33м2(32кв)</tspan></text>
-      <rect id="apt_f15_a0316" data-name="apt f15 a0316" class="cls-4" x="1232.71" y="1298.18" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f07_a03" data-name="apt f15 a0316" class="cls-4" x="1232.71" y="1298.18" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1270.66 1371.6)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.49м2(33кв)</tspan></text>
-      <rect id="apt_f15_a0416" data-name="apt f15 a0416" class="cls-4" x="1776.69" y="1298.4" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f07_a04" data-name="apt f15 a0416" class="cls-4" x="1776.69" y="1298.4" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1819.92 1371.6)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.60м2(34кв)</tspan></text>
-      <rect id="apt_f15_a0526" data-name="apt f15 a0526" class="cls-4" x="2320.67" y="1298.5" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f07_a05" data-name="apt f15 a0526" class="cls-4" x="2320.67" y="1298.5" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(2356.21 1371.6)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.45.93м2(35кв)</tspan></text>
-      <rect id="apt_f15_a0117" data-name="apt f15 a0117" class="cls-4" x="145.34" y="1163.39" width="529.02" height="124.11"/>
+
+      <!-- floor 8 -->
+      <rect id="apt_b01_f08_a01" data-name="apt f15 a0117" class="cls-4" x="145.34" y="1163.39" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(168.58 1240.49)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м. 75.47м2(36кв)</tspan></text>
-      <rect id="apt_f15_a0217" data-name="apt f15 a0217" class="cls-4" x="689.18" y="1163.5" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f08_a02" data-name="apt f15 a0217" class="cls-4" x="689.18" y="1163.5" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(724.47 1237.86)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.81.33м2(37кв)</tspan></text>
-      <rect id="apt_f15_a0317" data-name="apt f15 a0317" class="cls-4" x="1232.71" y="1163.39" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f08_a03" data-name="apt f15 a0317" class="cls-4" x="1232.71" y="1163.39" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1270.66 1237.86)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.49м2(38кв)</tspan></text>
-      <rect id="apt_f15_a0417" data-name="apt f15 a0417" class="cls-4" x="1776.69" y="1163.6" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f08_a04" data-name="apt f15 a0417" class="cls-4" x="1776.69" y="1163.6" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1819.92 1237.86)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.60м2(39кв)</tspan></text>
-      <rect id="apt_f15_a0527" data-name="apt f15 a0527" class="cls-4" x="2320.67" y="1163.71" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f08_a05" data-name="apt f15 a0527" class="cls-4" x="2320.67" y="1163.71" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(2356.21 1237.86)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.45.93м2(40кв)</tspan></text>
-      <rect id="apt_f15_a0118" data-name="apt f15 a0118" class="cls-4" x="145.34" y="1028.6" width="529.02" height="124.11"/>
+
+      <!-- floor 9 -->
+      <rect id="apt_b01_f09_a01" data-name="apt f15 a0118" class="cls-4" x="145.34" y="1028.6" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(168.58 1103.86)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м. 75.47м2(41кв)</tspan></text>
-      <rect id="apt_f15_a0218" data-name="apt f15 a0218" class="cls-4" x="689.18" y="1028.7" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f09_a02" data-name="apt f15 a0218" class="cls-4" x="689.18" y="1028.7" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(724.47 1101.23)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.81.33м2(42кв)</tspan></text>
-      <rect id="apt_f15_a0318" data-name="apt f15 a0318" class="cls-4" x="1232.71" y="1028.6" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f09_a03" data-name="apt f15 a0318" class="cls-4" x="1232.71" y="1028.6" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1270.66 1101.23)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.49м2(43кв)</tspan></text>
-      <rect id="apt_f15_a0418" data-name="apt f15 a0418" class="cls-4" x="1776.69" y="1028.81" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f09_a04" data-name="apt f15 a0418" class="cls-4" x="1776.69" y="1028.81" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1819.92 1101.23)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.60м2(44кв)</tspan></text>
-      <rect id="apt_f15_a0528" data-name="apt f15 a0528" class="cls-4" x="2320.67" y="1028.91" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f09_a05" data-name="apt f15 a0528" class="cls-4" x="2320.67" y="1028.91" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(2356.21 1101.23)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.45.93м2(45кв)</tspan></text>
-      <rect id="apt_f15_a0119" data-name="apt f15 a0119" class="cls-4" x="145.34" y="893.8" width="529.02" height="124.11"/>
+
+      <!-- floor 10 -->
+      <rect id="apt_b01_f10_a01" data-name="apt f15 a0119" class="cls-4" x="145.34" y="893.8" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(168.58 967.33)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м. 75.47м2(46кв)</tspan></text>
-      <rect id="apt_f15_a0219" data-name="apt f15 a0219" class="cls-4" x="689.18" y="893.91" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f10_a02" data-name="apt f15 a0219" class="cls-4" x="689.18" y="893.91" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(724.47 964.7)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.81.33м2(47кв)</tspan></text>
-      <rect id="apt_f15_a0319" data-name="apt f15 a0319" class="cls-4" x="1232.71" y="893.8" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f10_a03" data-name="apt f15 a0319" class="cls-4" x="1232.71" y="893.8" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1270.66 964.69)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.49м2(48кв)</tspan></text>
-      <rect id="apt_f15_a0419" data-name="apt f15 a0419" class="cls-4" x="1776.69" y="894.01" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f10_a04" data-name="apt f15 a0419" class="cls-4" x="1776.69" y="894.01" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1819.92 964.7)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.60м2(49кв)</tspan></text>
-      <rect id="apt_f15_a0529" data-name="apt f15 a0529" class="cls-4" x="2320.67" y="894.12" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f10_a05" data-name="apt f15 a0529" class="cls-4" x="2320.67" y="894.12" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(2356.21 964.7)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.45.93м2(50кв)</tspan></text>
-      <rect id="apt_f15_a01110" data-name="apt f15 a01110" class="cls-4" x="145.34" y="759.01" width="529.02" height="124.11"/>
+
+      <!-- floor 11 -->
+      <rect id="apt_b01_f11_a01" data-name="apt f15 a01110" class="cls-4" x="145.34" y="759.01" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(168.58 830.8)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м. 75.47м2(51кв)</tspan></text>
-      <rect id="apt_f15_a02110" data-name="apt f15 a02110" class="cls-4" x="689.18" y="759.11" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f11_a02" data-name="apt f15 a02110" class="cls-4" x="689.18" y="759.11" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(724.47 831.18)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.81.33м2(52кв)</tspan></text>
-      <rect id="apt_f15_a03110" data-name="apt f15 a03110" class="cls-4" x="1232.71" y="759.01" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f11_a03" data-name="apt f15 a03110" class="cls-4" x="1232.71" y="759.01" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1270.66 831.18)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.49м2(53кв)</tspan></text>
-      <rect id="apt_f15_a04110" data-name="apt f15 a04110" class="cls-4" x="1776.69" y="759.22" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f11_a04" data-name="apt f15 a04110" class="cls-4" x="1776.69" y="759.22" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1819.92 831.18)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.60м2(54кв)</tspan></text>
-      <rect id="apt_f15_a05210" data-name="apt f15 a05210" class="cls-4" x="2320.67" y="759.32" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f11_a05" data-name="apt f15 a05210" class="cls-4" x="2320.67" y="759.32" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(2356.21 831.18)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.45.93м2(55кв)</tspan></text>
-      <rect id="apt_f15_a01111" data-name="apt f15 a01111" class="cls-4" x="145.34" y="624.21" width="529.02" height="124.11"/>
+
+      <!-- floor 12 -->
+      <rect id="apt_b01_f12_a01" data-name="apt f15 a01111" class="cls-4" x="145.34" y="624.21" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(168.58 699.4)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м. 75.47м2(56кв)</tspan></text>
-      <rect id="apt_f15_a02111" data-name="apt f15 a02111" class="cls-4" x="689.18" y="624.32" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f12_a02" data-name="apt f15 a02111" class="cls-4" x="689.18" y="624.32" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(724.47 697.78)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.81.33м2(57кв)</tspan></text>
-      <rect id="apt_f15_a03111" data-name="apt f15 a03111" class="cls-4" x="1232.71" y="624.21" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f12_a03" data-name="apt f15 a03111" class="cls-4" x="1232.71" y="624.21" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1270.66 696.77)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.49м2(58кв)</tspan></text>
-      <rect id="apt_f15_a04111" data-name="apt f15 a04111" class="cls-4" x="1776.69" y="624.42" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f12_a04" data-name="apt f15 a04111" class="cls-4" x="1776.69" y="624.42" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1819.92 696.77)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.60м2(59кв)</tspan></text>
-      <rect id="apt_f15_a05211" data-name="apt f15 a05211" class="cls-4" x="2320.67" y="624.53" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f12_a05" data-name="apt f15 a05211" class="cls-4" x="2320.67" y="624.53" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(2356.21 696.77)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.45.93м2(60кв)</tspan></text>
-      <rect id="apt_f15_a01112" data-name="apt f15 a01112" class="cls-4" x="145.34" y="489.42" width="529.02" height="124.11"/>
+
+      <!-- floor 13 -->
+      <rect id="apt_b01_f13_a01" data-name="apt f15 a01112" class="cls-4" x="145.34" y="489.42" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(168.58 568.76)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м. 75.47м2(61кв)</tspan></text>
-      <rect id="apt_f15_a02112" data-name="apt f15 a02112" class="cls-4" x="689.18" y="489.52" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f13_a02" data-name="apt f15 a02112" class="cls-4" x="689.18" y="489.52" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(724.47 568.52)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.81.33м2(62кв)</tspan></text>
-      <rect id="apt_f15_a03112" data-name="apt f15 a03112" class="cls-4" x="1232.71" y="489.42" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f13_a03" data-name="apt f15 a03112" class="cls-4" x="1232.71" y="489.42" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1270.66 568.52)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.49м2(63кв)</tspan></text>
-      <rect id="apt_f15_a04112" data-name="apt f15 a04112" class="cls-4" x="1776.69" y="489.63" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f13_a04" data-name="apt f15 a04112" class="cls-4" x="1776.69" y="489.63" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1819.92 568.52)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.60м2(64кв)</tspan></text>
-      <rect id="apt_f15_a05212" data-name="apt f15 a05212" class="cls-4" x="2320.67" y="489.74" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f13_a05" data-name="apt f15 a05212" class="cls-4" x="2320.67" y="489.74" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(2356.21 568.52)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.45.93м2(65кв)</tspan></text>
-      <rect id="apt_f15_a01113" data-name="apt f15 a01113" class="cls-4" x="145.34" y="354.62" width="529.02" height="124.11"/>
+
+      <!-- floor 14 -->
+      <rect id="apt_b01_f14_a01" data-name="apt f15 a01113" class="cls-4" x="145.34" y="354.62" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(168.58 432.23)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м. 75.47м2(66кв)</tspan></text>
-      <rect id="apt_f15_a02113" data-name="apt f15 a02113" class="cls-4" x="689.18" y="354.73" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f14_a02" data-name="apt f15 a02113" class="cls-4" x="689.18" y="354.73" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(724.47 429.6)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.81.33м2(67кв)</tspan></text>
-      <rect id="apt_f15_a03113" data-name="apt f15 a03113" class="cls-4" x="1232.71" y="354.62" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f14_a03" data-name="apt f15 a03113" class="cls-4" x="1232.71" y="354.62" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1270.66 429.6)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.49м2(68кв)</tspan></text>
-      <rect id="apt_f15_a04113" data-name="apt f15 a04113" class="cls-4" x="1776.69" y="354.84" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f14_a04" data-name="apt f15 a04113" class="cls-4" x="1776.69" y="354.84" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1819.92 429.6)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.60м2(69кв)</tspan></text>
-      <rect id="apt_f15_a05213" data-name="apt f15 a05213" class="cls-4" x="2320.67" y="354.94" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f14_a05" data-name="apt f15 a05213" class="cls-4" x="2320.67" y="354.94" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(2356.21 429.6)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.45.93м2(70кв)</tspan></text>
-      <rect id="apt_f15_a01114" data-name="apt f15 a01114" class="cls-4" x="145.34" y="219.83" width="529.02" height="124.11"/>
+
+      <!-- floor 15 -->
+      <rect id="apt_b01_f15_a01" data-name="apt f15 a01114" class="cls-4" x="145.34" y="219.83" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(168.58 301.06)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м. 75.47м2(71кв)</tspan></text>
-      <rect id="apt_f15_a02114" data-name="apt f15 a02114" class="cls-4" x="689.18" y="219.94" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f15_a02" data-name="apt f15 a02114" class="cls-4" x="689.18" y="219.94" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(724.47 298.43)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.81.33м2(72кв)</tspan></text>
-      <rect id="apt_f15_a03114" data-name="apt f15 a03114" class="cls-4" x="1232.71" y="219.83" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f15_a03" data-name="apt f15 a03114" class="cls-4" x="1232.71" y="219.83" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1270.66 298.43)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.49м2(73кв)</tspan></text>
-      <rect id="apt_f15_a04114" data-name="apt f15 a04114" class="cls-4" x="1776.69" y="220.04" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f15_a04" data-name="apt f15 a04114" class="cls-4" x="1776.69" y="220.04" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(1819.92 298.43)"><tspan x="0" y="0">2 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.74.60м2(74кв)</tspan></text>
-      <rect id="apt_f15_a05214" data-name="apt f15 a05214" class="cls-4" x="2320.67" y="220.15" width="529.02" height="124.11"/>
+      <rect id="apt_b01_f15_a05" data-name="apt f15 a05214" class="cls-4" x="2320.67" y="220.15" width="529.02" height="124.11"/>
       <text class="cls-2" transform="translate(2356.21 298.43)"><tspan x="0" y="0">1 </tspan><tspan class="cls-10" x="39.71" y="0">ко</tspan><tspan x="91.36" y="0">м.45.93м2(75кв)</tspan></text>
+
       <path class="cls-5" d="M2869.99,186.16H125.91c-6.21,0-4.02-2.92-2.49-4.96L257.87,1.5h2479.3l134.96,180.39c1.32,1.76.06,4.27-2.14,4.27Z"/>
       <text class="cls-1" transform="translate(1274.21 126.23)"><tspan x="0" y="0">Б</tspan><tspan class="cls-9" x="79.06" y="0">л</tspan><tspan x="147.49" y="0">ок 1 </tspan></text>
     </g>
